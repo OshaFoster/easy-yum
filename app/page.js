@@ -1,14 +1,22 @@
+"use client";
+
+import { useState } from "react";
+import Hero from "@/components/sections/Hero";
+import RecipeGrid from "@/components/sections/RecipeGrid";
+
 export default function Home() {
+  const [selectedRecipe, setSelectedRecipe] = useState(null);
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-center py-32 px-16 bg-white dark:bg-black gap-8">
-        <h1 className="text-5xl font-bold tracking-tight text-black dark:text-white">
-          Easy Yum
-        </h1>
-        <p className="text-lg text-zinc-600 dark:text-zinc-400">
-          Get started by editing <code className="font-mono font-semibold text-black dark:text-white">app/page.js</code>
-        </p>
-      </main>
-    </div>
+    <main className="min-h-screen bg-stone-50 px-8 md:px-16 lg:px-24 py-24">
+      <div className="flex flex-col md:flex-row gap-16 items-start">
+        <div className="flex-1 md:sticky md:top-24">
+          <Hero />
+        </div>
+        <div className="flex-1 pt-4">
+          <RecipeGrid onSelectRecipe={setSelectedRecipe} />
+        </div>
+      </div>
+    </main>
   );
 }
