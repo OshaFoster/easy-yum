@@ -1,18 +1,49 @@
+"use client";
+
+import { motion } from "framer-motion";
+
+const letters = "Easy, Yum!".split("");
+
+const containerVariants = {
+  hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0.06,
+    },
+  },
+};
+
+const letterVariants = {
+  hidden: { opacity: 0, y: 40, rotate: -10 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    rotate: 0,
+    transition: {
+      type: "spring",
+      damping: 10,
+      stiffness: 150,
+    },
+  },
+};
+
 export default function Hero() {
   return (
-    <div>
-      <h1 className="font-display text-8xl md:text-9xl text-stone-900 leading-none tracking-tight mb-8">
-        Easy, Yum!
-      </h1>
-      <p className="text-xl text-stone-500 max-w-sm leading-relaxed mb-10">
-        Simple recipes. Real ingredients.<br />
-        Everyday cooking, done well.
-      </p>
-      <p className="text-base text-stone-400 max-w-md leading-relaxed">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris.
-      </p>
-    </div>
+    <motion.h1
+      className="font-display text-8xl md:text-9xl text-stone-900 leading-none tracking-tight flex"
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+    >
+      {letters.map((letter, i) => (
+        <motion.span
+          key={i}
+          variants={letterVariants}
+          className="inline-block"
+        >
+          {letter === " " ? "\u00A0" : letter}
+        </motion.span>
+      ))}
+    </motion.h1>
   );
 }
