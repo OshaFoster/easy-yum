@@ -168,6 +168,45 @@
     "notes": ""
   },
   {
+    "slug": "pan-seared-lamb-chops",
+    "title": "Simple Pan-Seared Lamb Chops",
+    "description": "This is my favorite simple way to cook lamb chops. A hot pan, good salt, and a little thyme bring out the rich flavor of the lamb. Browning the edges adds extra depth and texture.",
+    "images": {},
+    "tags": ["15 Min", "Gluten-Free"],
+    "time": "15 min",
+    "prepTime": "5 minutes",
+    "cookTime": "8–10 minutes",
+    "servings": 2,
+    "ingredients": [
+      "4 small lamb loin chops",
+      "½ teaspoon sea salt",
+      "¼ teaspoon freshly ground black pepper",
+      "½ teaspoon dried thyme (or a few fresh thyme leaves)",
+      "1 tablespoon olive oil"
+    ],
+    "instructions": [
+      "Pat the lamb chops dry with a paper towel. Season both sides with salt, pepper, and thyme.",
+      "Heat a large skillet over medium-high heat and add the olive oil.",
+      "Place the lamb chops in the pan with a little space around each one.",
+      "Sear the first side until nicely browned, about 3–4 minutes.",
+      "Flip the chops and cook another 2–3 minutes on the second side.",
+      "Using tongs, hold the chops on their sides and brown the fat edges for about 30–60 seconds.",
+      "Transfer the lamb chops to a plate and let them rest for a few minutes before serving."
+    ],
+    "notes": "Use a pan large enough so the lamb chops have space around them. This allows them to brown properly instead of steaming. Lamb chops are best when slightly pink in the center.",
+    "optionalSection": {
+      "title": "Optional Pan Toss (Sweet Arugula)",
+      "intro": "After removing the lamb chops from the pan:",
+      "steps": [
+        "Add 2–3 chopped dates and a small handful of chopped pecans to the warm lamb fat.",
+        "Cook for about 1 minute, until fragrant.",
+        "Toss in a few handfuls of arugula and stir until it just wilts.",
+        "Transfer to a plate and finish with crumbled soft goat cheese."
+      ],
+      "outro": "Serve the lamb chops on top."
+    }
+  },
+  {
     "slug": "slow-cooker-chicken-broth",
     "title": "Slow Cooker Chicken Broth",
     "description": "Set it before bed, wake up to something that makes everything taste better.",

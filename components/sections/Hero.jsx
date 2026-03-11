@@ -30,7 +30,7 @@ const letterVariants = {
 export default function Hero() {
   return (
     <motion.h1
-      className="font-display text-8xl md:text-9xl text-stone-900 leading-none tracking-tight flex"
+      className="font-display text-8xl md:text-9xl text-[#3b3c36] leading-none tracking-tight flex"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
