@@ -1,179 +1,292 @@
 [
   {
-    "slug": "lemon-herb-chicken",
-    "title": "Lemon Herb Chicken",
-    "description": "Bright, simple, and endlessly weeknight-friendly. One pan, minimal cleanup.",
+    "slug": "broiled-salmon-zucchini",
+    "title": "Simple Broiled Salmon with Zucchini",
+    "description": "This is one of the simplest ways I cook salmon. A thick piece of salmon roasts under the broiler alongside thin slices of zucchini. Everything becomes soft, buttery, and lightly golden with very little effort.",
     "images": {},
-    "tags": ["One-Pot", "30 Min", "Gluten-Free"],
-    "time": "30 min",
-    "servings": 4,
-    "ingredients": [],
-    "instructions": [],
-    "notes": ""
-  },
-  {
-    "slug": "white-bean-tomato-soup",
-    "title": "White Bean & Tomato Soup",
-    "description": "Pantry staples turned into something that tastes like it took all day.",
-    "images": {},
-    "tags": ["One-Pot", "25 Min", "Vegan"],
-    "time": "25 min",
-    "servings": 4,
-    "ingredients": [],
-    "instructions": [],
-    "notes": ""
-  },
-  {
-    "slug": "garlic-butter-pasta",
-    "title": "Garlic Butter Pasta",
-    "description": "Six ingredients, twenty minutes, zero complaints.",
-    "images": {},
-    "tags": ["20 Min", "Vegetarian"],
-    "time": "20 min",
+    "tags": ["Gluten-Free"],
+    "prepTime": "5 minutes",
+    "cookTime": "About 20 minutes",
     "servings": 2,
-    "ingredients": [],
-    "instructions": [],
-    "notes": ""
+    "ingredients": [
+      "1 thick salmon fillet (about 1 lb, skin-on)",
+      "1 large zucchini",
+      "1–2 tablespoons olive oil",
+      "½ teaspoon sea salt",
+      "¼ teaspoon freshly ground black pepper"
+    ],
+    "instructions": [
+      "Place the salmon skin-side down on a baking sheet.",
+      "Slice the zucchini thinly and spread it around the salmon on the pan.",
+      "Drizzle the zucchini generously with olive oil and lightly drizzle the salmon.",
+      "Season everything with salt and pepper.",
+      "Place the pan on the middle rack of the oven and broil for about 18–20 minutes.",
+      "The salmon is ready when it is cooked through and lightly golden on top. The zucchini should be very soft and slightly browned."
+    ],
+    "notes": "Use a thick piece of salmon if possible (about 1–1½ inches thick). Thinner fillets may cook faster, so check them earlier.\n\nCooking time can vary depending on your oven and the thickness of the fish. If the salmon is not quite done, return it to the oven for another minute or two.\n\nLining the baking sheet with parchment paper makes cleanup much easier.",
+    "variation": "Thin asparagus works well in place of the zucchini and cooks in about the same amount of time.",
+    "optionalSections": [
+      {
+        "title": "Optional: Crispy Salmon Skin",
+        "intro": "After removing the salmon from the pan:",
+        "steps": [
+          "Leave the skin on the baking sheet and place it back under the broiler for another 1–3 minutes, until browned and crispy. It makes a rich, salty little cook's treat."
+        ],
+        "outro": null
+      }
+    ]
   },
   {
-    "slug": "roasted-veggie-grain-bowl",
-    "title": "Roasted Veggie Grain Bowl",
-    "description": "Whatever vegetables you have, roasted until caramelized and served over grains.",
+    "slug": "oven-sweet-potato-fries",
+    "title": "Oven Sweet Potato Fries",
+    "description": "Thin sweet potato fries tossed with olive oil, salt, and pepper and roasted until soft with lightly browned edges. These are great with a quick garlic aioli or a little hot sauce.",
     "images": {},
-    "tags": ["45 Min", "Vegan", "Gluten-Free"],
-    "time": "45 min",
+    "tags": ["Vegan", "Gluten-Free"],
+    "prepTime": "10 minutes",
+    "cookTime": "About 20 minutes",
+    "servings": "2–3",
+    "ingredients": [
+      "2 medium to large sweet potatoes",
+      "2 tablespoons olive oil",
+      "½ teaspoon sea salt",
+      "¼ teaspoon freshly ground black pepper",
+      "Optional: 1–2 cloves garlic, pressed or finely minced"
+    ],
+    "instructions": [
+      "Preheat the oven to 400°F.",
+      "Wash the sweet potatoes and trim off the ends. Leave the skins on if you like.",
+      "Cut each sweet potato in half, then slice into thin wedges and cut those into fries.",
+      "Place the fries on a baking sheet and toss with olive oil, salt, and pepper. If using garlic, add it to the pan.",
+      "Spread the fries out so they have space to roast.",
+      "Bake for about 20 minutes, until tender with lightly browned edges."
+    ],
+    "notes": "Cutting the fries thin helps them cook quickly and become tender.\n\nYou can cut thicker fries if you prefer—just cook them a little longer until they reach your desired tenderness and browning.\n\nThese fries make a great side with the burgers.",
+    "optionalSections": [
+      {
+        "title": "Optional Garlic Aioli",
+        "intro": null,
+        "steps": [
+          "Mix ½ cup mayonnaise with 1 crushed or pressed clove garlic, a squeeze of lemon (about 1–2 teaspoons), a pinch of salt, black pepper, and a little smoked paprika. Serve alongside the fries."
+        ],
+        "outro": null
+      }
+    ]
+  },
+  {
+    "slug": "roasted-broccoli-chili-flakes",
+    "title": "Roasted Broccoli with Chili Flakes",
+    "description": "Broccoli roasted with olive oil, salt, pepper, and a pinch of chili flakes until tender and lightly browned. Simple and full of flavor.",
+    "images": {},
+    "tags": ["Vegan", "Gluten-Free"],
+    "prepTime": "5 minutes",
+    "cookTime": "20–25 minutes",
+    "servings": "2–3",
+    "ingredients": [
+      "1 large head broccoli",
+      "2 tablespoons olive oil",
+      "½ teaspoon sea salt",
+      "¼ teaspoon freshly ground black pepper",
+      "¼ teaspoon chili flakes"
+    ],
+    "instructions": [
+      "Preheat the oven to 400°F.",
+      "Rinse the broccoli and cut it into florets.",
+      "Place the broccoli on a baking sheet and toss with olive oil, salt, pepper, and chili flakes.",
+      "Spread the broccoli out so it roasts rather than steams.",
+      "Roast for 20–25 minutes, stirring once if you like, until tender and lightly browned."
+    ],
+    "notes": "Smaller florets cook a little faster and develop more browned edges.\n\nAdjust the chili flakes to your preferred level of heat."
+  },
+  {
+    "slug": "cumin-roasted-cauliflower",
+    "title": "Cumin Roasted Cauliflower",
+    "description": "Cauliflower florets roasted with olive oil, cumin, and smoked paprika until tender and lightly browned. A squeeze of lemon at the end brightens everything up.",
+    "images": {},
+    "tags": ["Vegan", "Gluten-Free"],
+    "prepTime": "10 minutes",
+    "cookTime": "20–25 minutes",
+    "servings": "2–3",
+    "ingredients": [
+      "1 medium head cauliflower",
+      "2 tablespoons olive oil",
+      "½ teaspoon sea salt",
+      "¼ teaspoon freshly ground black pepper",
+      "1 teaspoon cumin seeds (or ¾ teaspoon ground cumin)",
+      "½ teaspoon smoked paprika",
+      "Optional: squeeze of fresh lemon"
+    ],
+    "instructions": [
+      "Preheat the oven to 400°F.",
+      "Rinse the cauliflower and cut it into small florets.",
+      "Place the florets on a baking sheet and toss with olive oil, salt, pepper, cumin, and smoked paprika.",
+      "Spread the cauliflower out so it roasts rather than steams.",
+      "Roast for 20–25 minutes, stirring once or twice, until tender and lightly browned.",
+      "Finish with a squeeze of lemon if you like."
+    ],
+    "notes": "Smaller florets roast faster and get more browned edges.\n\nIf using cumin seeds, they add a little extra texture and flavor."
+  },
+  {
+    "slug": "rustic-skillet-beets",
+    "title": "Rustic Skillet Beets",
+    "description": "Thinly sliced beets roast in olive oil with salt, pepper, and oregano until tender and lightly caramelized. If your beets come with greens, they cook right in the pan for an easy rustic side.",
+    "images": {},
+    "tags": ["Vegan", "Gluten-Free"],
+    "prepTime": "10 minutes",
+    "cookTime": "About 25 minutes",
     "servings": 2,
-    "ingredients": [],
-    "instructions": [],
-    "notes": ""
+    "ingredients": [
+      "2–3 medium beets",
+      "2 tablespoons olive oil",
+      "½ teaspoon sea salt",
+      "¼ teaspoon freshly ground black pepper",
+      "1 teaspoon dried oregano (or 1 tablespoon fresh oregano)",
+      "Optional: beet greens"
+    ],
+    "instructions": [
+      "Preheat the oven to 400°F.",
+      "Rinse the beets. Trim off the tops and bottoms and remove any very thick skin near the stem.",
+      "Cut the beets into quarters, then slice them thinly into small wedges or triangles.",
+      "Place the beets in an oven-safe skillet or baking dish.",
+      "Drizzle with olive oil and season with salt, pepper, and oregano. Toss lightly to coat.",
+      "Roast the beets for about 10–12 minutes.",
+      "If using beet greens, loosely chop them and remove any very thick stems. Scatter them over the beets.",
+      "Return the pan to the oven and roast another 10–15 minutes. About halfway through, stir everything together so the greens soften in the oil and beet juices.",
+      "Continue cooking until the beets are tender and lightly caramelized."
+    ],
+    "notes": "Slicing the beets thinly helps them cook faster and become tender.\n\nA cast-iron skillet works especially well for caramelizing the edges.\n\nA small drizzle of olive oil over the greens helps them soften as they cook."
   },
   {
-    "slug": "skillet-eggs-chickpeas",
-    "title": "Skillet Eggs & Chickpeas",
-    "description": "A savory, protein-packed meal that works for breakfast, lunch, or dinner.",
+    "slug": "curry-beef-cabbage",
+    "title": "Easy Curry Beef & Cabbage",
+    "description": "This easy one-pan dish bakes ground beef under a layer of cabbage with warm curry spices. The beef cooks in a little water, creating a light broth that the cabbage absorbs as it softens. It's simple, cozy, and surprisingly flavorful.",
     "images": {},
-    "tags": ["One-Pot", "20 Min", "Vegetarian"],
-    "time": "20 min",
-    "servings": 2,
-    "ingredients": [],
-    "instructions": [],
-    "notes": ""
+    "tags": ["Gluten-Free", "One-Pan"],
+    "prepTime": "5 minutes",
+    "cookTime": "About 20 minutes",
+    "servings": "3–4",
+    "ingredients": [
+      "1 lb ground beef",
+      "1½ cups water",
+      "1 heaping teaspoon curry powder",
+      "2–3 cups chopped green cabbage",
+      "1 tablespoon olive oil",
+      "½ teaspoon sea salt",
+      "¼ teaspoon freshly ground black pepper",
+      "½ teaspoon curry powder (for the cabbage)"
+    ],
+    "instructions": [
+      "Preheat the oven to 400°F.",
+      "In an oven-safe skillet or pan, add the ground beef and water.",
+      "Break up the beef with a spoon or fork and mix it into the water.",
+      "Season the beef mixture with curry powder, salt, and pepper.",
+      "Spread the chopped cabbage evenly over the top of the beef.",
+      "Drizzle the cabbage lightly with olive oil and season with a little more curry powder, salt, and pepper.",
+      "Bake for about 20 minutes, until the cabbage is tender and lightly browned on top.",
+      "Remove from the oven and stir everything together so the cabbage absorbs the flavorful broth."
+    ],
+    "notes": "Any oven-safe skillet or baking dish will work. Cast iron works especially well.\n\nThe dish will have a light curry broth after baking, which the cabbage absorbs when stirred.",
+    "optionalSections": [
+      {
+        "title": "Serving Suggestion",
+        "intro": null,
+        "steps": [
+          "Serve as is, or with rice if you want something to soak up the broth."
+        ],
+        "outro": null
+      }
+    ]
   },
   {
-    "slug": "coconut-lentil-soup",
-    "title": "Coconut Lentil Soup",
-    "description": "Creamy, warming, and deeply satisfying. Lentils do all the heavy lifting.",
+    "slug": "baked-burgers-mushrooms",
+    "title": "Simple Baked Burgers & Mushrooms",
+    "description": "This is an easy one-pan meal. The burgers cook on a rack so they brown nicely while mushrooms roast underneath and soak up some of the flavor.",
     "images": {},
-    "tags": ["One-Pot", "35 Min", "Vegan", "Gluten-Free"],
-    "time": "35 min",
+    "tags": ["Gluten-Free"],
+    "prepTime": "5 minutes",
+    "cookTime": "About 20 minutes",
     "servings": 4,
-    "ingredients": [],
-    "instructions": [],
-    "notes": ""
+    "ingredients": [
+      "1 lb ground beef",
+      "A few handfuls button or cremini mushrooms (whatever fits around the burgers on the pan)",
+      "1–2 tablespoons olive oil",
+      "1½ teaspoons sea salt",
+      "½ teaspoon freshly ground black pepper",
+      "Optional spices: pinch garlic powder, onion powder, smoked paprika, or a small pinch of asafoetida (hing)"
+    ],
+    "instructions": [
+      "Preheat the oven to 400°F.",
+      "Divide the ground beef into four patties (about ¼ lb each).",
+      "Season both sides of the burgers with salt, pepper, and any optional spices.",
+      "Place the burgers on a wire rack set over a baking sheet.",
+      "Scatter the mushrooms around or under the rack on the baking sheet.",
+      "Drizzle the mushrooms with olive oil and season lightly with salt and pepper.",
+      "Bake for about 20 minutes, until the mushrooms are tender and the burgers are cooked to your preferred doneness."
+    ],
+    "notes": "Using a rack allows the burgers to brown while the mushrooms cook underneath.\n\nCooking time may vary slightly depending on burger thickness and your oven.\n\nServe medium to medium-rare, or cook longer if you prefer a more well-done burger.",
+    "optionalSections": [
+      {
+        "title": "Serving Suggestion",
+        "intro": null,
+        "steps": [
+          "Serve with a fermented pickle and a little mustard for brightness and balance."
+        ],
+        "outro": null
+      },
+      {
+        "title": "Suggested Side",
+        "intro": null,
+        "steps": [
+          "Oven Sweet Potato Fries."
+        ],
+        "outro": null
+      }
+    ]
   },
   {
-    "slug": "baked-salmon-lemon-dill",
-    "title": "Baked Salmon with Lemon & Dill",
-    "description": "Flaky, bright, and done in under 20 minutes.",
+    "slug": "crispy-roast-chicken-potatoes",
+    "title": "Crispy Roast Chicken & Potatoes",
+    "description": "This is my favorite simple way to cook a whole chicken. A blast of high heat crisps the skin, then the oven is lowered so the chicken finishes slowly and stays juicy. Yukon gold potatoes roast alongside the chicken and become soft, buttery, and crispy on the outside.",
     "images": {},
-    "tags": ["20 Min", "Gluten-Free"],
-    "time": "20 min",
-    "servings": 2,
-    "ingredients": [],
-    "instructions": [],
-    "notes": ""
-  },
-  {
-    "slug": "turkey-zucchini-meatballs",
-    "title": "Turkey & Zucchini Meatballs",
-    "description": "Light and tender. Good on their own, great over pasta or grains.",
-    "images": {},
-    "tags": ["35 Min", "Gluten-Free"],
-    "time": "35 min",
-    "servings": 4,
-    "ingredients": [],
-    "instructions": [],
-    "notes": ""
-  },
-  {
-    "slug": "black-bean-tacos",
-    "title": "Black Bean Tacos",
-    "description": "Fast, filling, and easily customizable with whatever you have on hand.",
-    "images": {},
-    "tags": ["15 Min", "Vegan"],
-    "time": "15 min",
-    "servings": 2,
-    "ingredients": [],
-    "instructions": [],
-    "notes": ""
-  },
-  {
-    "slug": "sheet-pan-sausage-vegetables",
-    "title": "Sheet Pan Sausage & Vegetables",
-    "description": "Everything on one pan, into the oven, done. Minimal effort, maximum return.",
-    "images": {},
-    "tags": ["45 Min", "Gluten-Free"],
-    "time": "45 min",
-    "servings": 4,
-    "ingredients": [],
-    "instructions": [],
-    "notes": ""
-  },
-  {
-    "slug": "miso-butter-noodles",
-    "title": "Miso Butter Noodles",
-    "description": "Deeply savory and rich. Ready before you've finished pouring a drink.",
-    "images": {},
-    "tags": ["15 Min", "Vegetarian"],
-    "time": "15 min",
-    "servings": 2,
-    "ingredients": [],
-    "instructions": [],
-    "notes": ""
-  },
-  {
-    "slug": "greek-chicken-rice",
-    "title": "Greek Chicken & Rice",
-    "description": "Briny olives, lemon, and herbs make this one worth making on repeat.",
-    "images": {},
-    "tags": ["One-Pot", "40 Min", "Gluten-Free"],
-    "time": "40 min",
-    "servings": 4,
-    "ingredients": [],
-    "instructions": [],
-    "notes": ""
-  },
-  {
-    "slug": "tomato-braised-white-beans",
-    "title": "Tomato Braised White Beans",
-    "description": "Low and slow, pantry simple. Excellent with crusty bread.",
-    "images": {},
-    "tags": ["One-Pot", "30 Min", "Vegan"],
-    "time": "30 min",
-    "servings": 4,
-    "ingredients": [],
-    "instructions": [],
-    "notes": ""
-  },
-  {
-    "slug": "crispy-tofu-rice-bowl",
-    "title": "Crispy Tofu Rice Bowl",
-    "description": "Golden, seasoned tofu over steamed rice with a simple sauce.",
-    "images": {},
-    "tags": ["30 Min", "Vegan", "Gluten-Free"],
-    "time": "30 min",
-    "servings": 2,
-    "ingredients": [],
-    "instructions": [],
-    "notes": ""
+    "tags": ["Gluten-Free"],
+    "prepTime": "5 minutes",
+    "cookTime": "About 1 hour 20 minutes",
+    "servings": "4–6",
+    "ingredients": [
+      "1 whole chicken (4–5 lbs)",
+      "4–5 medium Yukon Gold potatoes",
+      "2 teaspoons sea salt",
+      "½ teaspoon freshly ground black pepper",
+      "1–2 teaspoons dried herbs (such as thyme, rosemary, or herbes de Provence)",
+      "Optional: light sprinkle of garlic powder or onion powder"
+    ],
+    "instructions": [
+      "Preheat the oven to 500°F.",
+      "Place the chicken breast-side up on a wire rack set over a baking sheet.",
+      "Season the chicken generously with salt, pepper, and herbs.",
+      "Rinse the potatoes and place them whole on the rack or around the chicken on the pan.",
+      "Roast the chicken at 500°F for 20 minutes to begin crisping the skin.",
+      "Lower the oven temperature to 300°F and continue roasting for about 1 hour, until the chicken is cooked through and the juices run clear.",
+      "Check the potatoes during cooking. If they are very tender when pierced with a fork, remove them and set aside.",
+      "Let the chicken rest for about 10 minutes before carving."
+    ],
+    "notes": "Cooking time will vary depending on the size of the chicken and your oven.\n\nUsing a wire rack allows air to circulate around the chicken so the skin crisps better and the chicken stays out of the drippings.\n\nYukon Gold potatoes become very soft and buttery inside while their skins crisp in the oven.\n\nTo serve, split the potatoes and add a little butter, salt, and black pepper. The chicken is also great with yogurt or sour cream and a little hot sauce. Good-quality butter or cultured dairy makes the potatoes especially nice.",
+    "optionalSections": [
+      {
+        "title": "Suggested Side",
+        "intro": null,
+        "steps": [
+          "A simple green salad balances the richness of the chicken and potatoes."
+        ],
+        "outro": null
+      }
+    ]
   },
   {
     "slug": "pan-seared-lamb-chops",
     "title": "Simple Pan-Seared Lamb Chops",
     "description": "This is my favorite simple way to cook lamb chops. A hot pan, good salt, and a little thyme bring out the rich flavor of the lamb. Browning the edges adds extra depth and texture.",
     "images": {},
-    "tags": ["15 Min", "Gluten-Free"],
-    "time": "15 min",
+    "tags": ["Gluten-Free"],
     "prepTime": "5 minutes",
     "cookTime": "8–10 minutes",
     "servings": 2,
@@ -194,28 +307,26 @@
       "Transfer the lamb chops to a plate and let them rest for a few minutes before serving."
     ],
     "notes": "Use a pan large enough so the lamb chops have space around them. This allows them to brown properly instead of steaming. Lamb chops are best when slightly pink in the center.",
-    "optionalSection": {
-      "title": "Optional Pan Toss (Sweet Arugula)",
-      "intro": "After removing the lamb chops from the pan:",
-      "steps": [
-        "Add 2–3 chopped dates and a small handful of chopped pecans to the warm lamb fat.",
-        "Cook for about 1 minute, until fragrant.",
-        "Toss in a few handfuls of arugula and stir until it just wilts.",
-        "Transfer to a plate and finish with crumbled soft goat cheese."
-      ],
-      "outro": "Serve the lamb chops on top."
-    }
-  },
-  {
-    "slug": "slow-cooker-chicken-broth",
-    "title": "Slow Cooker Chicken Broth",
-    "description": "Set it before bed, wake up to something that makes everything taste better.",
-    "images": {},
-    "tags": ["8 Hr", "Gluten-Free"],
-    "time": "8 hr",
-    "servings": 8,
-    "ingredients": [],
-    "instructions": [],
-    "notes": ""
+    "optionalSections": [
+      {
+        "title": "Optional Pan Toss (Sweet Arugula)",
+        "intro": "After removing the lamb chops from the pan:",
+        "steps": [
+          "Add 2–3 chopped dates and a small handful of chopped pecans to the warm lamb fat.",
+          "Cook for about 1 minute, until fragrant.",
+          "Toss in a few handfuls of arugula and stir until it just wilts.",
+          "Transfer to a plate and finish with crumbled soft goat cheese."
+        ],
+        "outro": "Serve the lamb chops on top."
+      },
+      {
+        "title": "Suggested Side",
+        "intro": null,
+        "steps": [
+          "Great with Oven Sweet Potato Fries."
+        ],
+        "outro": null
+      }
+    ]
   }
 ]

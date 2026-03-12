@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 
 const LINE_COLOR = "#c4805e";
 
-function Watermark({ src, width, height, opacity, className, delay, rotate = 0, color = LINE_COLOR }) {
+function Watermark({ src, width, height, opacity, className, delay, rotate = 0, color = LINE_COLOR, style = {} }) {
   const id = `colorize-${src.replace(/\W/g, "")}-${color.replace("#", "")}`;
   return (
     <motion.div
       className={className}
-      style={{ width, height, transform: `rotate(${rotate}deg)` }}
+      style={{ width, height, transform: `rotate(${rotate}deg)`, ...style }}
       aria-hidden="true"
       initial={{ opacity: 0, scale: 0.85 }}
       animate={{ opacity, scale: 1 }}
