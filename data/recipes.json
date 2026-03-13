@@ -1,6 +1,7 @@
 [
   {
     "slug": "broiled-salmon-zucchini",
+    "section": "simple-plates",
     "title": "Simple Broiled Salmon with Zucchini",
     "description": "This is one of the simplest ways I cook salmon. A thick piece of salmon roasts under the broiler alongside thin slices of zucchini. Everything becomes soft, buttery, and lightly golden with very little effort.",
     "images": {},
@@ -38,6 +39,7 @@
   },
   {
     "slug": "oven-sweet-potato-fries",
+    "section": "sides",
     "title": "Oven Sweet Potato Fries",
     "description": "Thin sweet potato fries tossed with olive oil, salt, and pepper and roasted until soft with lightly browned edges. These are great with a quick garlic aioli or a little hot sauce.",
     "images": {},
@@ -74,6 +76,7 @@
   },
   {
     "slug": "roasted-broccoli-chili-flakes",
+    "section": "sides",
     "title": "Roasted Broccoli with Chili Flakes",
     "description": "Broccoli roasted with olive oil, salt, pepper, and a pinch of chili flakes until tender and lightly browned. Simple and full of flavor.",
     "images": {},
@@ -99,6 +102,7 @@
   },
   {
     "slug": "cumin-roasted-cauliflower",
+    "section": "sides",
     "title": "Cumin Roasted Cauliflower",
     "description": "Cauliflower florets roasted with olive oil, cumin, and smoked paprika until tender and lightly browned. A squeeze of lemon at the end brightens everything up.",
     "images": {},
@@ -127,6 +131,7 @@
   },
   {
     "slug": "rustic-skillet-beets",
+    "section": "sides",
     "title": "Rustic Skillet Beets",
     "description": "Thinly sliced beets roast in olive oil with salt, pepper, and oregano until tender and lightly caramelized. If your beets come with greens, they cook right in the pan for an easy rustic side.",
     "images": {},
@@ -157,6 +162,7 @@
   },
   {
     "slug": "curry-beef-cabbage",
+    "section": "simple-plates",
     "title": "Easy Curry Beef & Cabbage",
     "description": "This easy one-pan dish bakes ground beef under a layer of cabbage with warm curry spices. The beef cooks in a little water, creating a light broth that the cabbage absorbs as it softens. It's simple, cozy, and surprisingly flavorful.",
     "images": {},
@@ -198,6 +204,7 @@
   },
   {
     "slug": "baked-burgers-mushrooms",
+    "section": "simple-plates",
     "title": "Simple Baked Burgers & Mushrooms",
     "description": "This is an easy one-pan meal. The burgers cook on a rack so they brown nicely while mushrooms roast underneath and soak up some of the flavor.",
     "images": {},
@@ -244,6 +251,7 @@
   },
   {
     "slug": "crispy-roast-chicken-potatoes",
+    "section": "simple-plates",
     "title": "Crispy Roast Chicken & Potatoes",
     "description": "This is my favorite simple way to cook a whole chicken. A blast of high heat crisps the skin, then the oven is lowered so the chicken finishes slowly and stays juicy. Yukon gold potatoes roast alongside the chicken and become soft, buttery, and crispy on the outside.",
     "images": {},
@@ -283,6 +291,7 @@
   },
   {
     "slug": "pan-seared-lamb-chops",
+    "section": "simple-plates",
     "title": "Simple Pan-Seared Lamb Chops",
     "description": "This is my favorite simple way to cook lamb chops. A hot pan, good salt, and a little thyme bring out the rich flavor of the lamb. Browning the edges adds extra depth and texture.",
     "images": {},

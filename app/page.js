@@ -16,9 +16,6 @@ export default function Home() {
       <Header />
 
       <main className="relative z-10 pt-32 pb-24 px-8 md:px-16 lg:px-24">
-        <p className="text-sm tracking-widest uppercase mb-10" style={{ color: "var(--ink-muted)" }}>
-          Recipes
-        </p>
         <RecipeSection recipes={recipes} />
       </main>
     </div>

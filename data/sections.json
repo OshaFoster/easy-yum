@@ -1,0 +1,27 @@
+[
+  {
+    "id": "simple-plates",
+    "title": "Simple Plates",
+    "description": "Simple, satisfying dishes that form the base of a meal. These recipes often combine a protein and vegetables cooked together with minimal ingredients and straightforward techniques."
+  },
+  {
+    "id": "sides",
+    "title": "Sides",
+    "description": "Vegetable dishes and small plates that complement a meal. Often roasted, sautéed, or lightly seasoned to highlight the natural flavor of the ingredients."
+  },
+  {
+    "id": "salads",
+    "title": "Salads",
+    "description": "Fresh, simple combinations of vegetables, herbs, and light dressings. These recipes focus on clean ingredients and balanced flavor."
+  },
+  {
+    "id": "breakfast-sweets",
+    "title": "Breakfast & Sweets",
+    "description": "Fruit-forward breakfasts and lightly sweet recipes made with simple, whole ingredients. Many of these dishes work as either a morning meal or a small dessert."
+  },
+  {
+    "id": "broths-soups",
+    "title": "Broths & Soups",
+    "description": "Nourishing broths and comforting soups made with simple ingredients, focusing on warmth, depth of flavor, and gentle nourishment."
+  }
+]
