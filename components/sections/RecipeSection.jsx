@@ -7,6 +7,9 @@ import sectionsData from "@/data/sections.json";
 
 export default function RecipeSection({ recipes }) {
   const sectionRefs = useRef({});
+  const navRef = useRef(null);
+  const [navHeight, setNavHeight] = useState(48);
+  const navHeightRef = useRef(48);
 
   // Group recipes by section, preserving section order
   const groupedSections = sectionsData
@@ -16,9 +19,23 @@ export default function RecipeSection({ recipes }) {
   // Initialize to first populated section immediately — no null flash
   const [activeSection, setActiveSection] = useState(groupedSections[0]?.id ?? null);
 
+  // Measure nav height and keep updated on resize
+  useEffect(() => {
+    const update = () => {
+      if (navRef.current) {
+        const h = navRef.current.offsetHeight;
+        setNavHeight(h);
+        navHeightRef.current = h;
+      }
+    };
+    update();
+    window.addEventListener("resize", update);
+    return () => window.removeEventListener("resize", update);
+  }, []);
+
   useEffect(() => {
     const handleScroll = () => {
-      const offset = 160;
+      const offset = 84 + navHeightRef.current + 16;
       let current = groupedSections[0]?.id;
       for (const section of groupedSections) {
         const el = sectionRefs.current[section.id];
@@ -38,7 +55,7 @@ export default function RecipeSection({ recipes }) {
     setActiveSection(id);
     const el = sectionRefs.current[id];
     if (!el) return;
-    const top = el.getBoundingClientRect().top + window.scrollY - 160;
+    const top = el.getBoundingClientRect().top + window.scrollY - (83 + navHeight + 12);
     window.scrollTo({ top, behavior: "smooth" });
   };
 
@@ -50,6 +67,7 @@ export default function RecipeSection({ recipes }) {
 
       {/* Full-width fixed section nav */}
       <div
+        ref={navRef}
         className="fixed left-0 right-0 z-20 px-8 md:px-16 lg:px-24 flex flex-wrap gap-x-8 gap-y-2 py-5 border-b"
         style={{ top: "83px", backgroundColor: "var(--bg)", borderColor: "var(--border)" }}
       >
@@ -74,7 +92,7 @@ export default function RecipeSection({ recipes }) {
       </div>
 
       {/* Two-column layout */}
-      <div className="flex flex-col md:flex-row gap-16 md:gap-24 pt-12">
+      <div className="flex flex-col md:flex-row gap-16 md:gap-24" style={{ paddingTop: navHeight + 16 }}>
 
         {/* Left: sticky section description */}
         <div className="hidden md:block w-[20%] shrink-0">
