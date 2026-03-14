@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getAllRecipes, getRecipeBySlug } from "@/lib/recipes";
 import Header from "@/components/layout/Header";
 import { Asset28 } from "@/components/ui/FoodWatermarks";
+import FadeIn from "@/components/ui/FadeIn";
 
 export function generateStaticParams() {
   return getAllRecipes().map((r) => ({ slug: r.slug }));
@@ -35,6 +36,7 @@ export default async function RecipePage({ params }) {
       />
 
       <main className="relative z-10 pt-28 pb-24 px-8 md:px-16 lg:px-24 max-w-4xl">
+        <FadeIn>
 
         {/* Back */}
         <Link
@@ -147,6 +149,7 @@ export default async function RecipePage({ params }) {
           </div>
         ))}
 
+        </FadeIn>
       </main>
     </div>
   );
