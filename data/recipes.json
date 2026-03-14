@@ -337,5 +337,82 @@
         "outro": null
       }
     ]
+  },
+  {
+    "slug": "five-spice-beef-meatballs",
+    "section": "simple-plates",
+    "title": "Five-Spice Beef Meatballs",
+    "description": "Ground beef mixed with red onion and Chinese five-spice, rolled into large meatballs and quickly browned in a hot skillet. They stay juicy with a slightly pink center and lots of warm spice flavor.",
+    "images": {},
+    "tags": ["GF", "Paleo"],
+    "prepTime": "10 minutes",
+    "cookTime": "6–8 minutes",
+    "servings": "3–4",
+    "ingredients": [
+      "1 lb ground beef",
+      "½ medium red onion, finely chopped",
+      "1 to 1½ teaspoons Chinese five-spice powder",
+      "¾ teaspoon sea salt",
+      "1 tablespoon olive oil"
+    ],
+    "instructions": [
+      "In a bowl, combine the ground beef, chopped red onion, five-spice powder, and salt.",
+      "Mix everything together with your hands until evenly combined.",
+      "Divide the mixture into 8 portions and roll them into large meatballs.",
+      "Heat the olive oil in a skillet over medium-high heat.",
+      "Cook the meatballs for about 6–8 minutes, turning occasionally, until browned on the outside and still slightly pink inside."
+    ],
+    "notes": "Red onion adds a little sweetness that works well with the five-spice.\n\nGreen onion can also be used in place of red onion if you prefer.",
+    "optionalSections": [
+      {
+        "title": "Suggested Side",
+        "intro": null,
+        "steps": [
+          "Instant Pot Mashed Potatoes with Parsnip."
+        ],
+        "outro": null
+      },
+      {
+        "title": "Optional Spinach",
+        "intro": "After removing the meatballs:",
+        "steps": [
+          "Add a couple handfuls of spinach to the warm pan and let it wilt in the beef fat for a quick side."
+        ],
+        "outro": null
+      }
+    ]
+  },
+  {
+    "slug": "instant-pot-mashed-potatoes-parsnip",
+    "section": "sides",
+    "title": "Instant Pot Mashed Potatoes with Parsnip",
+    "description": "Creamy mashed potatoes cooked in the Instant Pot with a parsnip and zucchini for extra flavor and softness. Finished with butter and black pepper.",
+    "images": {},
+    "tags": ["GF"],
+    "prepTime": "10 minutes",
+    "cookTime": "8 minutes (plus pressure time)",
+    "servings": "3–4",
+    "ingredients": [
+      "4 large Yukon Gold potatoes",
+      "1 medium parsnip",
+      "1 medium zucchini (or 2 small)",
+      "2–3 cups water",
+      "¾ teaspoon sea salt",
+      "2 tablespoons butter",
+      "¼ teaspoon freshly ground black pepper",
+      "Optional topping: yogurt or sour cream"
+    ],
+    "instructions": [
+      "Trim any rough or discolored spots from the potatoes. Leave most of the skin on, removing only thick patches if needed.",
+      "Cut the potatoes into roughly ½-inch chunks.",
+      "Trim the parsnip and cut it into slightly smaller pieces.",
+      "Place the potatoes and parsnip in the Instant Pot. Add the water and salt.",
+      "Turn on the Instant Pot. Once the water begins heating but before the lid seals, add the chopped zucchini.",
+      "Seal the lid and cook on high pressure for 8 minutes.",
+      "Quick-release the pressure when finished.",
+      "Drain most of the water, leaving a small amount in the pot.",
+      "Add the butter and black pepper and mash everything with a fork until creamy."
+    ],
+    "notes": "Leaving a little of the cooking water helps the potatoes mash smoothly.\n\nSuggested topping: a spoonful of yogurt or sour cream."
   }
 ]
