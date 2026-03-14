@@ -18,6 +18,9 @@ export default function RecipeSection({ recipes }) {
 
   // Initialize to first populated section immediately — no null flash
   const [activeSection, setActiveSection] = useState(groupedSections[0]?.id ?? null);
+  const [activeFilter, setActiveFilter] = useState("All");
+
+  const FILTERS = ["All", "GF", "Vegan", "Paleo", "One-Pan"];
 
   // Measure nav height and keep updated on resize
   useEffect(() => {
@@ -91,8 +94,8 @@ export default function RecipeSection({ recipes }) {
         })}
       </div>
 
-      {/* Two-column layout */}
-      <div className="flex flex-col md:flex-row gap-16 md:gap-24" style={{ paddingTop: navHeight + 16 }}>
+      {/* Three-column layout */}
+      <div className="flex flex-col md:flex-row gap-16 md:gap-24" style={{ paddingTop: navHeight + 32 }}>
 
         {/* Left: sticky section description */}
         <div className="hidden md:block w-[20%] shrink-0">
@@ -115,45 +118,73 @@ export default function RecipeSection({ recipes }) {
           </div>
         </div>
 
-        {/* Right: grouped recipe list */}
+        {/* Middle: grouped recipe list */}
         <div className="flex-1 min-w-0 pb-[60vh]">
-          {groupedSections.map((section) => (
-            <div
-              key={section.id}
-              ref={(el) => { sectionRefs.current[section.id] = el; }}
-              className="mb-14"
-            >
-              <p className="text-xs tracking-widest uppercase mb-5" style={{ color: activeSection === section.id ? "var(--accent)" : "var(--ink-muted)" }}>
-                {section.title}
-              </p>
-              <ul className="flex flex-col">
-                {section.recipes.map((recipe) => (
-                  <li key={recipe.slug}>
-                    <Link
-                      href={`/recipes/${recipe.slug}`}
-                      className="group flex items-baseline gap-4 py-3 border-b"
-                      style={{ borderColor: "var(--border)" }}
-                    >
-                      <span className="font-display text-3xl shrink-0" style={{ color: "var(--accent)" }}>•</span>
-                      <span className="flex-1 min-w-0">
-                        <span
-                          className="font-display text-3xl block origin-left transition-transform duration-200 group-hover:scale-[1.04]"
-                          style={{ color: "var(--ink)" }}
-                        >
-                          {recipe.title}
-                        </span>
-                        {(recipe.cookTime || recipe.tags?.length > 0) && (
-                          <span className="text-xs tracking-widest uppercase mt-0.5 block" style={{ color: "var(--ink-muted)" }}>
-                            {[recipe.cookTime, ...(recipe.tags ?? [])].filter(Boolean).join(" · ")}
+          {groupedSections.map((section) => {
+            const filtered = activeFilter === "All"
+              ? section.recipes
+              : section.recipes.filter((r) => r.tags?.includes(activeFilter));
+            if (!filtered.length) return null;
+            return (
+              <div
+                key={section.id}
+                ref={(el) => { sectionRefs.current[section.id] = el; }}
+                className="mb-14"
+              >
+                <p className="text-xs tracking-widest uppercase mb-5" style={{ color: activeSection === section.id ? "var(--accent)" : "var(--ink-muted)" }}>
+                  {section.title}
+                </p>
+                <ul className="flex flex-col">
+                  {filtered.map((recipe) => (
+                    <li key={recipe.slug}>
+                      <Link
+                        href={`/recipes/${recipe.slug}`}
+                        className="group flex items-baseline gap-4 py-3 border-b"
+                        style={{ borderColor: "var(--border)" }}
+                      >
+                        <span className="font-display text-3xl shrink-0" style={{ color: "var(--accent)" }}>•</span>
+                        <span className="flex-1 min-w-0">
+                          <span
+                            className="font-display text-3xl block origin-left transition-transform duration-200 group-hover:scale-[1.04]"
+                            style={{ color: "var(--ink)" }}
+                          >
+                            {recipe.title}
                           </span>
-                        )}
-                      </span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+                          {(recipe.cookTime || recipe.tags?.length > 0) && (
+                            <span className="text-xs tracking-widest uppercase mt-0.5 block" style={{ color: "var(--ink-muted)" }}>
+                              {[recipe.cookTime, ...(recipe.tags ?? [])].filter(Boolean).join(" · ")}
+                            </span>
+                          )}
+                        </span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Right: sticky filter panel — large screens only */}
+        <div className="hidden lg:block w-[14%] shrink-0">
+          <div className="sticky top-48">
+            <p className="text-xs tracking-widest uppercase mb-4" style={{ color: "var(--ink-muted)" }}>Filter</p>
+            <div className="flex flex-col gap-2">
+              {FILTERS.map((f) => (
+                <button
+                  key={f}
+                  onClick={() => setActiveFilter(f)}
+                  className="text-left text-sm tracking-wide transition-opacity duration-150"
+                  style={{
+                    color: activeFilter === f ? "var(--accent)" : "var(--ink-muted)",
+                    opacity: activeFilter === f ? 1 : 0.6,
+                  }}
+                >
+                  {activeFilter === f ? "→ " : ""}{f}
+                </button>
+              ))}
             </div>
-          ))}
+          </div>
         </div>
 
       </div>

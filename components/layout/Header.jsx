@@ -1,6 +1,10 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
+  const pathname = usePathname();
   return (
     <header
       className="fixed top-0 left-0 right-0 z-30 flex items-center justify-between px-8 md:px-16 lg:px-24 py-6 border-b"
@@ -13,7 +17,7 @@ export default function Header() {
         <Link
           href="/about"
           className="text-sm tracking-widest uppercase transition-colors duration-150"
-          style={{ color: "var(--ink-muted)" }}
+          style={{ color: pathname === "/about" ? "var(--accent)" : "var(--ink-muted)" }}
         >
           About
         </Link>
