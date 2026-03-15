@@ -414,5 +414,265 @@
       "Add the butter and black pepper and mash everything with a fork until creamy."
     ],
     "notes": "Leaving a little of the cooking water helps the potatoes mash smoothly.\n\nSuggested topping: a spoonful of yogurt or sour cream."
+  },
+  {
+    "slug": "instant-pot-beef-bone-broth",
+    "section": "broths-soups",
+    "title": "Instant Pot Beef Bone Broth",
+    "description": "A simple, rich beef bone broth made in the Instant Pot. Garlic and herbs add depth, making it perfect for drinking on its own or using as a base for soups.",
+    "images": {},
+    "tags": ["GF", "Paleo"],
+    "prepTime": "5 minutes",
+    "cookTime": "3 hours (plus release time)",
+    "servings": "About 6–8 cups",
+    "ingredients": [
+      "1 large beef soup bone (or 2 smaller bones)",
+      "1 whole garlic bulb, or ½ bulb if very fresh",
+      "1 teaspoon sea salt",
+      "1 tablespoon vinegar",
+      "1 teaspoon dried rosemary",
+      "¾ teaspoon dried thyme",
+      "Water (to the Instant Pot fill line)"
+    ],
+    "instructions": [
+      "Place the beef bone in the Instant Pot.",
+      "Add the garlic bulb, salt, and vinegar.",
+      "Fill the pot with water up to the fill line.",
+      "Seal the lid and cook on High Pressure for 3 hours.",
+      "Allow the pressure to release naturally if possible.",
+      "Once the lid can be opened, add the rosemary and thyme, crushing them slightly between your fingers as you add them.",
+      "Stir, cover loosely, and let the herbs steep for about 20 minutes.",
+      "Remove the bone and garlic, then taste and adjust the salt if needed."
+    ],
+    "notes": "Vinegar helps draw minerals and flavor from the bone.\n\nCrushing the dried herbs between your fingers helps release their aroma.\n\nThis broth is great for sipping or as a base for soups and beans."
+  },
+  {
+    "slug": "instant-pot-chicken-bone-broth-ginger",
+    "section": "broths-soups",
+    "title": "Instant Pot Chicken Bone Broth with Ginger",
+    "description": "A nourishing chicken bone broth made in the Instant Pot with turmeric and fresh ginger. The result is a flavorful broth that's great for sipping or using as a base for soups.",
+    "images": {},
+    "tags": ["GF", "Paleo"],
+    "prepTime": "5 minutes",
+    "cookTime": "2 hours (plus release time)",
+    "servings": "About 6–8 cups",
+    "ingredients": [
+      "Bones from 1 cooked chicken",
+      "1 teaspoon sea salt",
+      "1 tablespoon vinegar",
+      "1 rounded teaspoon turmeric",
+      "1½-inch piece fresh ginger, sliced",
+      "Water (to cover the bones, up to the Instant Pot fill line)"
+    ],
+    "instructions": [
+      "Place the chicken bones in the Instant Pot.",
+      "Add the salt, vinegar, turmeric, and sliced ginger.",
+      "Fill the pot with water until the bones are covered, up to the fill line.",
+      "Seal the lid and cook on High Pressure for 2 hours.",
+      "Allow the pressure to release naturally.",
+      "Open the lid and remove the bones and ginger.",
+      "Taste and adjust the salt if needed."
+    ],
+    "notes": "Turmeric and ginger give the broth a warm flavor and a golden color.\n\nThis broth is excellent for sipping on its own or using as a base for soups.",
+    "optionalSections": [
+      {
+        "title": "Suggested Serving",
+        "intro": null,
+        "steps": [
+          "Warm a mug of broth and add a squeeze of lemon and a little extra salt."
+        ],
+        "outro": null
+      }
+    ]
+  },
+  {
+    "slug": "smoked-paprika-roasted-turnips",
+    "section": "sides",
+    "title": "Smoked Paprika Roasted Turnips",
+    "description": "Turnips roasted with olive oil, smoked paprika, cumin, and oregano until soft and lightly browned. A simple, flavorful side that pairs especially well with lamb.",
+    "images": {},
+    "tags": ["Vegan", "GF", "Paleo"],
+    "prepTime": "10 minutes",
+    "cookTime": "About 20 minutes",
+    "servings": "2–3",
+    "ingredients": [
+      "6–8 small turnips (or 3–4 larger turnips)",
+      "2–3 tablespoons olive oil",
+      "½ teaspoon sea salt",
+      "¼ teaspoon freshly ground black pepper",
+      "1 teaspoon smoked paprika",
+      "½ teaspoon cumin",
+      "½ teaspoon dried oregano"
+    ],
+    "instructions": [
+      "Preheat the oven to 400°F.",
+      "Wash the turnips and trim the tops and bottoms.",
+      "Cut the turnips into quarters, then slice them thinly.",
+      "Spread the turnips on a baking sheet lined with parchment paper if you like.",
+      "Drizzle with olive oil and season with salt, pepper, smoked paprika, cumin, and oregano. Toss to coat.",
+      "Spread them out so they roast rather than steam.",
+      "Roast for about 20 minutes, stirring once if you like, until soft and lightly browned."
+    ],
+    "notes": "Turnips release some liquid as they cook, so spreading them out on the pan helps them roast instead of steam.\n\nSuggested side: Broiled Pork Chops.\n\nAlso good as a base for taco fillings."
+  },
+  {
+    "slug": "broiled-pork-chops",
+    "section": "simple-plates",
+    "title": "Broiled Pork Chops",
+    "description": "Pork chops broiled until nicely browned with crispy edges of fat. A simple method that produces juicy, flavorful chops in minutes.",
+    "images": {},
+    "tags": ["GF", "Paleo"],
+    "prepTime": "5 minutes",
+    "cookTime": "About 8 minutes",
+    "servings": "2–3",
+    "ingredients": [
+      "2–3 pork chops (¾–1 inch thick)",
+      "1 tablespoon olive oil",
+      "½ teaspoon sea salt",
+      "¼ teaspoon freshly ground black pepper",
+      "Optional: pinch smoked paprika or oregano"
+    ],
+    "instructions": [
+      "Preheat the broiler.",
+      "Pat the pork chops dry with a paper towel.",
+      "Rub the chops lightly with olive oil and season with salt, pepper, and any optional spices.",
+      "Place the chops on a broiler pan or baking sheet.",
+      "Position the pan on the second rack from the top of the oven.",
+      "Broil for about 4 minutes per side, until browned and the fat begins to crisp."
+    ],
+    "notes": "Cooking time may vary depending on the thickness of the chops and your broiler.\n\nLet the pork chops rest for a few minutes before serving.\n\nSuggested side: Smoked Paprika Roasted Turnips."
+  },
+  {
+    "slug": "ginger-tofu-leeks-shiitake",
+    "section": "simple-plates",
+    "title": "Ginger Tofu with Leeks & Shiitake",
+    "description": "Tofu sautéed with leeks, shiitake mushrooms, fresh ginger, tamari, and black pepper. A simple one-pan dish with rich, savory flavor.",
+    "images": {},
+    "tags": ["Vegan", "GF"],
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "servings": "2–3",
+    "ingredients": [
+      "1 block firm tofu, drained",
+      "1 large leek, sliced",
+      "1 cup fresh shiitake mushrooms, roughly chopped",
+      "1 tablespoon olive oil",
+      "¾–1 inch fresh ginger, grated",
+      "1–2 tablespoons tamari",
+      "¼ teaspoon freshly ground black pepper"
+    ],
+    "instructions": [
+      "Heat olive oil in a skillet over medium heat.",
+      "Add the sliced leek and shiitake mushrooms and cook until fragrant and the mushrooms soften.",
+      "Cut the tofu into small cubes.",
+      "Add the tofu to the pan.",
+      "Grate the ginger over the tofu and add the tamari and black pepper.",
+      "Stir and cook for several minutes until everything is heated through and the tofu absorbs the flavor."
+    ],
+    "notes": "Draining the tofu first helps it absorb the tamari.\n\nServe on top of quinoa or a baked sweet potato."
+  },
+  {
+    "slug": "warm-blueberries-yogurt-pumpkin-seeds",
+    "section": "breakfast-sweets",
+    "title": "Warm Blueberries with Yogurt & Pumpkin Seeds",
+    "description": "A simple bowl of gently warmed blueberries with creamy yogurt and crunchy pumpkin seeds.",
+    "images": {},
+    "tags": ["GF"],
+    "prepTime": "2 minutes",
+    "cookTime": "1 minute",
+    "servings": 1,
+    "ingredients": [
+      "½–¾ cup frozen blueberries",
+      "2–3 tablespoons yogurt (coconut, goat, or cow)",
+      "3–4 drops vanilla stevia (optional)",
+      "Small handful pumpkin seeds",
+      "Optional: fresh blackberries"
+    ],
+    "instructions": [
+      "Place the blueberries in a bowl or mug.",
+      "Microwave briefly, about 30–60 seconds, just until slightly warmed.",
+      "Spoon the yogurt over the berries.",
+      "Add the vanilla stevia if using.",
+      "Sprinkle pumpkin seeds on top.",
+      "Add fresh blackberries if you like."
+    ],
+    "notes": "The berries should be just warmed, not fully cooked.\n\nSuggested serving: breakfast or a simple dessert."
+  },
+  {
+    "slug": "apple-banana-peanut-butter-yogurt-bowl",
+    "section": "breakfast-sweets",
+    "title": "Apple, Banana & Peanut Butter Yogurt Bowl",
+    "description": "Fresh fruit with yogurt and crunchy peanut butter. A quick, simple bowl that works for breakfast or a light dessert.",
+    "images": {},
+    "tags": ["GF"],
+    "prepTime": "3 minutes",
+    "cookTime": null,
+    "servings": 1,
+    "ingredients": [
+      "½ apple, chopped",
+      "½ banana, sliced",
+      "2–3 strawberries, sliced",
+      "2–3 tablespoons yogurt (coconut, goat, or cow)",
+      "1 rounded teaspoon crunchy peanut butter"
+    ],
+    "instructions": [
+      "Place the chopped apple, banana, and strawberries in a bowl.",
+      "Spoon the yogurt over the fruit.",
+      "Add the peanut butter.",
+      "Stir gently."
+    ]
+  },
+  {
+    "slug": "prunes-roasted-walnuts",
+    "section": "breakfast-sweets",
+    "title": "Prunes with Roasted Walnuts",
+    "description": "Sweet prunes with crunchy roasted walnuts. A simple, naturally sweet dessert or snack.",
+    "images": {},
+    "tags": ["Vegan", "GF", "Paleo"],
+    "prepTime": "2 minutes",
+    "cookTime": null,
+    "servings": 1,
+    "ingredients": [
+      "4–5 prunes",
+      "Small handful roasted walnuts"
+    ],
+    "instructions": [
+      "Place the prunes in a small bowl.",
+      "Add the roasted walnuts on top or alongside."
+    ],
+    "notes": "Roasted pumpkin seeds also work well. A dried fig can be added for variety."
+  },
+  {
+    "slug": "simple-greens-avocado-hemp-seeds",
+    "section": "salads",
+    "title": "Simple Greens with Avocado & Hemp Seeds",
+    "description": "Fresh greens with creamy avocado, hemp seeds, olive oil, and vinegar. A simple salad that can be varied with a few colorful additions.",
+    "images": {},
+    "tags": ["Vegan", "GF", "Paleo"],
+    "prepTime": "5 minutes",
+    "cookTime": null,
+    "servings": "1–2",
+    "ingredients": [
+      "2 cups spring mix or mixed greens",
+      "½ ripe avocado, sliced or cubed",
+      "1 tablespoon hemp seeds",
+      "1 tablespoon olive oil",
+      "1–2 teaspoons vinegar (balsamic, ume plum, or apple cider)",
+      "Pinch sea salt",
+      "Freshly ground black pepper",
+      "Optional: chopped red bell pepper",
+      "Optional: thinly sliced or chopped carrot",
+      "Optional: pumpkin seeds or sunflower seeds",
+      "Optional: chopped parsley",
+      "Optional: microgreens or sprouts"
+    ],
+    "instructions": [
+      "Place the greens in a bowl.",
+      "Add the avocado and hemp seeds.",
+      "Drizzle with olive oil and vinegar.",
+      "Season with salt and pepper.",
+      "Toss gently to combine."
+    ],
+    "notes": "Red bell pepper adds sweetness, while pumpkin or sunflower seeds add extra crunch."
   }
 ]
