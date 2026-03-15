@@ -569,7 +569,7 @@
       "Grate the ginger over the tofu and add the tamari and black pepper.",
       "Stir and cook for several minutes until everything is heated through and the tofu absorbs the flavor."
     ],
-    "notes": "Draining the tofu first helps it absorb the tamari.\n\nServe on top of quinoa or a baked sweet potato."
+    "notes": "Draining the tofu first helps it absorb the tamari.\n\nServe on top of quinoa or a baked sweet potato.\n\nSuggested side: Sesame Cucumber Salad."
   },
   {
     "slug": "warm-blueberries-yogurt-pumpkin-seeds",
@@ -673,6 +673,126 @@
       "Season with salt and pepper.",
       "Toss gently to combine."
     ],
-    "notes": "Red bell pepper adds sweetness, while pumpkin or sunflower seeds add extra crunch."
+    "notes": "Red bell pepper adds sweetness, while pumpkin or sunflower seeds add extra crunch.\n\nPairs well with Rustic Skillet Beets or Oven Sweet Potato Fries."
+  },
+  {
+    "slug": "creamy-grated-cabbage-slaw",
+    "section": "salads",
+    "title": "Creamy Grated Cabbage Slaw",
+    "description": "Finely grated cabbage and carrot tossed with mayonnaise, salt, and pepper. A simple slaw with a soft, creamy texture.",
+    "images": {},
+    "tags": ["Vegan", "GF", "Paleo"],
+    "prepTime": "10 minutes",
+    "cookTime": null,
+    "servings": "2–3",
+    "ingredients": [
+      "2 cups cabbage, grated",
+      "1 small carrot, finely grated",
+      "1 tablespoon mayonnaise (such as Vegenaise)",
+      "Pinch sea salt",
+      "Freshly ground black pepper",
+      "Optional: thinly sliced red bell pepper",
+      "Optional: sunflower seeds"
+    ],
+    "instructions": [
+      "Grate the cabbage using the larger holes of a box grater.",
+      "Grate the carrot using the finer holes.",
+      "Place the cabbage and carrot in a bowl.",
+      "Add the mayonnaise, salt, and pepper.",
+      "Toss until everything is lightly coated."
+    ],
+    "notes": "The finely grated vegetables give this slaw a softer texture than traditional coleslaw."
+  },
+  {
+    "slug": "sesame-cucumber-salad",
+    "section": "salads",
+    "title": "Sesame Cucumber Salad",
+    "description": "Thinly sliced cucumbers tossed with sesame oil and rice vinegar. A light, refreshing salad with simple savory flavor.",
+    "images": {},
+    "tags": ["Vegan", "GF", "Paleo"],
+    "prepTime": "5 minutes",
+    "cookTime": null,
+    "servings": "2–3",
+    "notes": "Good alongside Ginger Tofu with Leeks & Shiitake.",
+    "ingredients": [
+      "2 medium cucumbers",
+      "1 tablespoon sesame oil",
+      "1 tablespoon rice vinegar",
+      "Pinch sea salt",
+      "Freshly ground black pepper",
+      "Optional: toasted sesame seeds"
+    ],
+    "instructions": [
+      "Trim the ends of the cucumbers.",
+      "Peel away about one-third of the skin in strips if you like.",
+      "Slice the cucumbers thinly into rounds or half-moons.",
+      "Place them in a bowl.",
+      "Add the sesame oil, rice vinegar, salt, and pepper.",
+      "Toss gently to combine.",
+      "Sprinkle with toasted sesame seeds if using."
+    ]
+  },
+  {
+    "slug": "roasted-delicata-squash",
+    "section": "sides",
+    "title": "Roasted Delicata Squash",
+    "description": "Thin slices of delicata squash roasted with olive oil, smoked paprika, and garlic salt until tender and lightly browned.",
+    "images": {},
+    "tags": ["Vegan", "GF", "Paleo"],
+    "prepTime": "5 minutes",
+    "cookTime": "15–20 minutes",
+    "servings": "2–3",
+    "ingredients": [
+      "1 large delicata squash",
+      "1½ tablespoons olive oil",
+      "½ teaspoon garlic salt",
+      "½ teaspoon smoked paprika"
+    ],
+    "instructions": [
+      "Preheat the oven to 400°F.",
+      "Trim the ends off the squash.",
+      "Cut it in half lengthwise and scrape out the seeds.",
+      "Slice the squash into thin half-moons.",
+      "Place the slices on a baking sheet.",
+      "Drizzle with olive oil and sprinkle with garlic salt and smoked paprika. Toss to coat.",
+      "Spread the squash out so the slices can roast rather than steam.",
+      "Roast for 15–20 minutes, stirring once if you like, until tender and lightly browned."
+    ],
+    "notes": "The skin of delicata squash is tender and can be eaten.\n\nSuggested side: Instant Pot Mashed Potatoes with Parsnip."
+  },
+  {
+    "slug": "garlic-herb-pinto-beans",
+    "section": "sides",
+    "title": "Garlic Herb Pinto Beans",
+    "description": "Tender pinto beans finished with butter, garlic, thyme, and rosemary. A rich, comforting side dish.",
+    "images": {},
+    "tags": ["GF"],
+    "prepTime": "5 minutes",
+    "cookTime": "50 minutes (Instant Pot)",
+    "servings": "3–4",
+    "ingredients": [
+      "1 cup dried pinto beans",
+      "Water",
+      "½ teaspoon sea salt (plus more to taste)",
+      "2 tablespoons butter",
+      "2 cloves garlic, finely chopped",
+      "1 teaspoon dried thyme",
+      "1 teaspoon dried rosemary",
+      "Freshly ground black pepper",
+      "Optional: lemon zest or a squeeze of lemon"
+    ],
+    "instructions": [
+      "Place the dried pinto beans in the Instant Pot and cover with several inches of water.",
+      "Cook on High Pressure for 30 minutes.",
+      "Drain and rinse the beans.",
+      "Return the beans to the Instant Pot, cover with fresh water just to cover, add the salt, and cook on High Pressure for another 20 minutes.",
+      "Drain most of the cooking water, leaving the beans moist but not soupy. Transfer the beans to a bowl.",
+      "Rinse out the Instant Pot and set it to Sauté. Melt the butter.",
+      "Add the garlic and cook briefly until fragrant, without browning.",
+      "Add the thyme and rosemary, crushing them slightly between your fingers.",
+      "Pour the garlic-herb butter over the beans and stir lightly to combine.",
+      "Season with black pepper and add lemon zest or a squeeze of lemon if you like."
+    ],
+    "notes": "These beans are especially good served on buttered bread or alongside steak."
   }
 ]
