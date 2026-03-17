@@ -46,7 +46,7 @@ export default function DonateButton() {
           </button>
         )}
         <p className="text-base text-white leading-relaxed" style={{ marginBottom: '14px' }}>
-          buy me coffee, or tea.
+          Buy me coffee, tea, or yummy ingredients.
         </p>
         <p className="text-sm font-medium text-white/60" style={{ marginBottom: '4px' }}>venmo</p>
         <p className="text-lg text-white">@Osha-Foster</p>

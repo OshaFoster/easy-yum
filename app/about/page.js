@@ -16,30 +16,11 @@ export default function AboutPage() {
           ← Recipes
         </Link>
 
-        {/* About */}
-        <section className="mb-16">
-          <h1 className="font-display text-5xl mb-8" style={{ color: "var(--ink)" }}>About</h1>
+        <section>
+          <h1 className="font-display text-5xl mb-8" style={{ color: "var(--ink)" }}>About Easy, Yum!</h1>
           <div className="flex flex-col gap-5 text-lg leading-relaxed" style={{ color: "var(--ink-muted)" }}>
             <p>
               This is a place to put your cooking philosophy — how you think about food, what you value in a recipe, why simplicity matters to you.
-            </p>
-            <p>
-              Not a blog. Not a column. Just a voice.
-            </p>
-          </div>
-        </section>
-
-        <div className="border-t mb-16" style={{ borderColor: "var(--border)" }} />
-
-        {/* About Me */}
-        <section>
-          <h2 className="font-display text-5xl mb-8" style={{ color: "var(--ink)" }}>About Me</h2>
-          <div className="flex flex-col gap-5 text-lg leading-relaxed" style={{ color: "var(--ink-muted)" }}>
-            <p>
-              A bit about who you are — where you're from, how you got into cooking, what drives your approach in the kitchen.
-            </p>
-            <p>
-              Keep it personal and direct. This isn't a bio, it's a conversation.
             </p>
           </div>
         </section>

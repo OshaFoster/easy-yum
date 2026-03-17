@@ -764,20 +764,21 @@
     "slug": "garlic-herb-pinto-beans",
     "section": "sides",
     "title": "Garlic Herb Pinto Beans",
-    "description": "Tender pinto beans finished with butter, garlic, thyme, and rosemary. A rich, comforting side dish.",
+    "description": "Tender pinto beans finished with butter, olive oil, garlic, thyme, and rosemary. A rich, comforting side dish.",
     "images": {},
     "tags": ["GF"],
     "prepTime": "5 minutes",
-    "cookTime": "50 minutes (Instant Pot)",
+    "cookTime": "1 hour (Instant Pot)",
     "servings": "3–4",
     "ingredients": [
       "1 cup dried pinto beans",
       "Water",
       "½ teaspoon sea salt (plus more to taste)",
-      "2 tablespoons butter",
-      "2 cloves garlic, finely chopped",
-      "1 teaspoon dried thyme",
-      "1 teaspoon dried rosemary",
+      "1½ tablespoons butter",
+      "1 tablespoon olive oil",
+      "4 cloves garlic, finely chopped",
+      "1 tablespoon fresh thyme (or 1 teaspoon dried)",
+      "1 tablespoon fresh rosemary, finely chopped (or 1 teaspoon dried)",
       "Freshly ground black pepper",
       "Optional: lemon zest or a squeeze of lemon"
     ],
@@ -785,14 +786,93 @@
       "Place the dried pinto beans in the Instant Pot and cover with several inches of water.",
       "Cook on High Pressure for 30 minutes.",
       "Drain and rinse the beans.",
-      "Return the beans to the Instant Pot, cover with fresh water just to cover, add the salt, and cook on High Pressure for another 20 minutes.",
+      "Return the beans to the Instant Pot, cover with fresh water just to cover, add the salt, and cook on High Pressure for another 30 minutes.",
       "Drain most of the cooking water, leaving the beans moist but not soupy. Transfer the beans to a bowl.",
-      "Rinse out the Instant Pot and set it to Sauté. Melt the butter.",
-      "Add the garlic and cook briefly until fragrant, without browning.",
-      "Add the thyme and rosemary, crushing them slightly between your fingers.",
-      "Pour the garlic-herb butter over the beans and stir lightly to combine.",
+      "Rinse out the Instant Pot and set it to Sauté. Add the butter and olive oil.",
+      "When the butter melts, add the garlic and cook briefly until fragrant, without browning.",
+      "Add the thyme and rosemary.",
+      "Pour the garlic-herb mixture over the beans and stir lightly to combine.",
       "Season with black pepper and add lemon zest or a squeeze of lemon if you like."
     ],
     "notes": "These beans are especially good served on buttered bread or alongside steak."
+  },
+  {
+    "slug": "quick-skillet-greens-coriander",
+    "section": "sides",
+    "title": "Quick Skillet Greens with Coriander",
+    "description": "Tender greens quickly cooked in coconut oil with toasted coriander seeds. A simple, flavorful side dish.",
+    "images": {},
+    "tags": ["Vegan", "GF", "Paleo"],
+    "prepTime": "3 minutes",
+    "cookTime": "3–4 minutes",
+    "servings": 2,
+    "ingredients": [
+      "1 teaspoon coconut oil",
+      "1 teaspoon coriander seeds",
+      "1 small container baby cooking greens (such as baby chard or power greens)",
+      "Pinch sea salt",
+      "Freshly ground black pepper",
+      "Optional: ¼ teaspoon ground coriander (if you don't have whole seeds)"
+    ],
+    "instructions": [
+      "Heat a skillet over medium-high heat.",
+      "Add the coconut oil.",
+      "Add the coriander seeds and cook briefly until fragrant.",
+      "Add the greens and cook quickly, tossing occasionally, until wilted and tender. Let them brown slightly if you like.",
+      "Season with salt and pepper."
+    ],
+    "notes": "If using ground coriander instead of seeds, add it with the greens."
+  },
+  {
+    "slug": "simple-red-lentil-dal",
+    "section": "broths-soups",
+    "title": "Simple Red Lentil Dal",
+    "description": "A warm, nourishing lentil soup made with cumin, coriander, ginger, and curry powder. Simple, comforting, and full of flavor.",
+    "images": {},
+    "tags": ["Vegan", "GF"],
+    "prepTime": "10 minutes",
+    "cookTime": "12 minutes (Instant Pot)",
+    "servings": 4,
+    "ingredients": [
+      "1 generous cup red lentils, rinsed",
+      "1 tablespoon coconut oil",
+      "1 teaspoon cumin seeds",
+      "1 teaspoon coriander seeds",
+      "½ onion, finely diced",
+      "2 carrots, diced small",
+      "2 cloves garlic, minced",
+      "1 inch fresh ginger, finely grated",
+      "1½ teaspoons curry powder",
+      "3–4 cups chicken broth or water",
+      "Salt",
+      "Freshly ground black pepper",
+      "Optional: 1 tablespoon ghee",
+      "Optional: fresh cilantro, chopped"
+    ],
+    "instructions": [
+      "Turn the Instant Pot to Sauté and add the coconut oil.",
+      "Add the cumin and coriander seeds and cook briefly until fragrant.",
+      "Add the diced onion and carrots and cook until the onion becomes translucent.",
+      "Add the garlic and grated ginger and cook briefly.",
+      "Turn off the heat and stir in the curry powder and a generous pinch of salt.",
+      "Pour in the broth or water, scraping the bottom of the pot to loosen any browned bits.",
+      "Add the rinsed lentils and stir.",
+      "Cook on High Pressure for 12 minutes.",
+      "Allow the pressure to release naturally, or use a quick release.",
+      "Stir in the ghee if using.",
+      "Taste and adjust salt and freshly ground black pepper.",
+      "Top with chopped cilantro if using."
+    ],
+    "notes": "This dal is meant to be a slightly thinner soup rather than a thick stew.\n\nA squeeze of fresh lemon at the end brightens the flavor.\n\nYou can use homemade chicken broth (see the Chicken Bone Broth recipe) or water.\n\nIf you prefer not to use ghee, a little extra coconut oil stirred in at the end makes the soup rich and satisfying.\n\nYou can also stir in a handful of chopped baby spinach just before serving and let it wilt in the hot soup.",
+    "optionalSections": [
+      {
+        "title": "Suggested Side",
+        "intro": null,
+        "steps": [
+          "Quick Skillet Greens with Coriander."
+        ],
+        "outro": null
+      }
+    ]
   }
 ]
