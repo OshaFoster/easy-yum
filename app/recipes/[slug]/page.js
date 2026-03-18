@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getAllRecipes, getRecipeBySlug } from "@/lib/recipes";
 import Header from "@/components/layout/Header";
-import { Asset28 } from "@/components/ui/FoodWatermarks";
+import { Asset47, Asset20, Meat36 } from "@/components/ui/FoodWatermarks";
 import FadeIn from "@/components/ui/FadeIn";
 
 export function generateStaticParams() {
@@ -25,14 +25,35 @@ export default async function RecipePage({ params }) {
       <Header />
 
       {/* Subtle background watermark */}
-      <Asset28
+      <Asset47
         width={460}
         height={460}
         opacity={0.07}
         delay={0.3}
         rotate={-15}
+        flipX
         color="var(--blush)"
         className="fixed top-[60%] right-[-20px] -translate-y-1/2 pointer-events-none z-0"
+      />
+
+      <Asset20
+        width={380}
+        height={380}
+        opacity={0.07}
+        delay={0.4}
+        rotate={15}
+        color="var(--blush)"
+        className="fixed top-[20%] left-[-20px] -translate-y-1/2 pointer-events-none z-0"
+      />
+
+      <Meat36
+        width={340}
+        height={340}
+        opacity={0.07}
+        delay={0.5}
+        rotate={-10}
+        color="var(--blush)"
+        className="fixed bottom-[-20px] left-[10%] pointer-events-none z-0"
       />
 
       <main className="relative z-10 pt-28 pb-24 px-8 md:px-16 lg:px-24 max-w-4xl">

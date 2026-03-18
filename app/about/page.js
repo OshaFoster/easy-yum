@@ -1,5 +1,6 @@
 import Header from "@/components/layout/Header";
 import Link from "next/link";
+import { Meat36 } from "@/components/ui/FoodWatermarks";
 
 export const metadata = { title: "About — Easy, Yum!" };
 
@@ -7,6 +8,15 @@ export default function AboutPage() {
   return (
     <div style={{ backgroundColor: "var(--bg)" }}>
       <Header />
+      <Meat36
+        width={340}
+        height={340}
+        opacity={0.07}
+        delay={0.4}
+        rotate={-10}
+        color="var(--blush)"
+        className="fixed top-[50%] right-[-20px] -translate-y-1/2 pointer-events-none z-0"
+      />
       <main className="relative z-10 pt-28 pb-24 px-8 md:px-16 lg:px-24 max-w-2xl">
         <Link
           href="/"
