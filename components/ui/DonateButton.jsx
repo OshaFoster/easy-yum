@@ -97,8 +97,8 @@ export default function DonateButton() {
         </div>
       </motion.div>
 
-      {/* Mobile button */}
-      <motion.button
+      {/* Mobile button — commented out for now */}
+      {/* <motion.button
         type="button"
         className={`md:hidden fixed inset-x-4 z-50 ${showDonate ? 'pointer-events-none' : 'pointer-events-auto'}`}
         style={{ bottom: mobileDonateButtonBottom }}
@@ -111,14 +111,15 @@ export default function DonateButton() {
           <span className="text-base font-medium">donate</span>
           <span className="text-sm font-medium" aria-hidden="true">$</span>
         </div>
-      </motion.button>
+      </motion.button> */}
 
       {/* Popup */}
       {showDonate && (
         <>
-          <div className="md:hidden fixed inset-x-0 z-50" style={{ bottom: mobileDonateSheetBottom }}>
+          {/* Mobile popup — commented out for now */}
+          {/* <div className="md:hidden fixed inset-x-0 z-50" style={{ bottom: mobileDonateSheetBottom }}>
             {renderDonateContent('mobile')}
-          </div>
+          </div> */}
           <div className="hidden md:block fixed bottom-28 right-8 z-50">
             {renderDonateContent('desktop')}
           </div>

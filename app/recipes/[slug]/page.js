@@ -122,7 +122,11 @@ export default async function RecipePage({ params }) {
         {recipe.variation && (
           <div className="border-t pt-10 mb-10" style={{ borderColor: "var(--border)" }}>
             <h2 className="text-xs tracking-widest uppercase mb-4" style={{ color: "var(--ink-muted)" }}>Variation</h2>
-            <p className="text-base leading-relaxed max-w-2xl" style={{ color: "var(--ink-muted)" }}>{recipe.variation}</p>
+            <div className="flex flex-col gap-3 max-w-2xl">
+              {recipe.variation.split("\n\n").map((para, i) => (
+                <p key={i} className="text-base leading-relaxed" style={{ color: "var(--ink-muted)" }}>{para}</p>
+              ))}
+            </div>
           </div>
         )}
 
