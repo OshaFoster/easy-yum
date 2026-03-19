@@ -13,11 +13,20 @@ export default function Header() {
       <Link href="/" className="font-display text-4xl" style={{ color: "var(--ink)" }}>
         Easy, Yum!
       </Link>
-      <nav>
+      <nav className="flex items-center gap-8">
+        {pathname === "/about" && (
+          <Link
+            href="/"
+            className="hidden md:inline text-sm tracking-widest uppercase transition-opacity duration-150 hover:opacity-50"
+            style={{ color: "var(--ink-muted)" }}
+          >
+            ← Recipes
+          </Link>
+        )}
         <Link
           href="/about"
-          className="text-sm tracking-widest uppercase transition-colors duration-150"
-          style={{ color: pathname === "/about" ? "var(--accent)" : "var(--ink-muted)" }}
+          className="text-sm tracking-widest uppercase transition-opacity duration-150 hover:opacity-50"
+          style={{ color: pathname === "/about" ? "#5b8a7a" : "var(--ink-muted)" }}
         >
           About
         </Link>

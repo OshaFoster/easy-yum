@@ -1,11 +1,14 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 import { motion } from 'framer-motion';
 
 export default function DonateButton() {
   const [showDonate, setShowDonate] = useState(false);
   const [mobileSafeArea, setMobileSafeArea] = useState('0px');
+  const pathname = usePathname();
+  const isAboutPage = pathname === '/about';
 
   useEffect(() => {
     const safeArea = getComputedStyle(document.documentElement)
@@ -97,29 +100,26 @@ export default function DonateButton() {
         </div>
       </motion.div>
 
-      {/* Mobile button — commented out for now */}
-      {/* <motion.button
-        type="button"
-        className={`md:hidden fixed inset-x-4 z-50 ${showDonate ? 'pointer-events-none' : 'pointer-events-auto'}`}
-        style={{ bottom: mobileDonateButtonBottom }}
-        onClick={open}
-        initial={{ opacity: 0, translateY: 16 }}
-        animate={{ opacity: showDonate ? 0 : 1, translateY: showDonate ? 16 : 0 }}
-        transition={{ duration: 0.3, ease: 'easeOut' }}
+      {/* Mobile button — circle matching desktop, about page only */}
+      {isAboutPage && <motion.div
+        className={`md:hidden fixed z-50 cursor-pointer`}
+        style={{ bottom: mobileDonateButtonBottom, right: '2rem' }}
+        onClick={showDonate ? close : open}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.4, delay: 0.6, ease: 'easeOut' }}
       >
-        <div className="flex items-center justify-center gap-2 rounded-full py-3 px-6 shadow-lg bg-[#2d3a4a] text-white border border-[#2d3a4a]">
-          <span className="text-base font-medium">donate</span>
-          <span className="text-sm font-medium" aria-hidden="true">$</span>
+        <div className="w-[60px] h-[60px] rounded-full bg-[#2d3a4a] flex items-center justify-center shadow-lg">
+          <span className="text-white text-xl leading-none">{showDonate ? '✕' : '$'}</span>
         </div>
-      </motion.button> */}
+      </motion.div>}
 
       {/* Popup */}
       {showDonate && (
         <>
-          {/* Mobile popup — commented out for now */}
-          {/* <div className="md:hidden fixed inset-x-0 z-50" style={{ bottom: mobileDonateSheetBottom }}>
+          {isAboutPage && <div className="md:hidden fixed inset-x-0 z-50" style={{ bottom: mobileDonateSheetBottom }}>
             {renderDonateContent('mobile')}
-          </div> */}
+          </div>}
           <div className="hidden md:block fixed bottom-28 right-8 z-50">
             {renderDonateContent('desktop')}
           </div>

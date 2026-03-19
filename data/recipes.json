@@ -386,7 +386,7 @@
   {
     "slug": "instant-pot-mashed-potatoes-parsnip",
     "section": "sides",
-    "title": "Instant Pot Mashed Potatoes with Parsnip",
+    "title": "Instant Pot Mashed Potatoes with Parsnip & Zucchini",
     "description": "Creamy mashed potatoes cooked in the Instant Pot with a parsnip and zucchini for extra flavor and softness. Finished with butter and black pepper.",
     "images": {},
     "tags": ["GF"],
@@ -738,7 +738,6 @@
     "prepTime": "5 minutes",
     "cookTime": null,
     "servings": "2–3",
-    "notes": "Good alongside Ginger Tofu with Leeks & Shiitake.",
     "ingredients": [
       "2 medium cucumbers",
       "1 tablespoon sesame oil",
@@ -755,7 +754,8 @@
       "Add the sesame oil, rice vinegar, salt, and pepper.",
       "Toss gently to combine.",
       "Sprinkle with toasted sesame seeds if using."
-    ]
+    ],
+    "notes": "Good alongside Ginger Tofu with Leeks & Shiitake."
   },
   {
     "slug": "roasted-delicata-squash",
