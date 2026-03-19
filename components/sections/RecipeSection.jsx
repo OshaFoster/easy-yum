@@ -95,7 +95,7 @@ export default function RecipeSection({ recipes }) {
       </div>
 
       {/* Three-column layout */}
-      <div className="flex flex-col md:flex-row gap-16 md:gap-24" style={{ paddingTop: navHeight + 32 }}>
+      <div className="flex flex-col md:flex-row gap-16 md:gap-16" style={{ paddingTop: navHeight + 32 }}>
 
         {/* Left: sticky section description */}
         <div className="hidden md:block w-[20%] shrink-0">
@@ -119,7 +119,7 @@ export default function RecipeSection({ recipes }) {
         </div>
 
         {/* Middle: grouped recipe list */}
-        <div className="flex-1 min-w-0 pb-[60vh]">
+        <div className="flex-1 min-w-0 max-w-2xl pb-[60vh]">
           {groupedSections.map((section) => {
             const filtered = activeFilter === "All"
               ? section.recipes
@@ -166,7 +166,7 @@ export default function RecipeSection({ recipes }) {
         </div>
 
         {/* Right: sticky filter panel — large screens only */}
-        <div className="hidden lg:block w-[14%] shrink-0">
+        <div className="hidden lg:block w-[18%] shrink-0">
           <div className="sticky top-48">
             <p className="text-xs tracking-widest uppercase mb-4" style={{ color: "var(--ink-muted)" }}>Filter</p>
             <div className="flex flex-col gap-2">
