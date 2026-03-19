@@ -58,3 +58,7 @@ export function Asset47(props) {
 export function Meat36(props) {
   return <Watermark src="/watermarks/Meat_36.svg" {...props} />;
 }
+
+export function Meat39(props) {
+  return <Watermark src="/watermarks/Meat_39.svg" {...props} />;
+}

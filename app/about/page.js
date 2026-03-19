@@ -1,6 +1,6 @@
 import Header from "@/components/layout/Header";
 import Link from "next/link";
-import { Meat36 } from "@/components/ui/FoodWatermarks";
+import { Meat39, Meat36 } from "@/components/ui/FoodWatermarks";
 
 export const metadata = { title: "About — Easy, Yum!" };
 
@@ -9,14 +9,25 @@ export default function AboutPage() {
     <div style={{ backgroundColor: "var(--bg)" }}>
       <Header />
       <div className="opacity-60 md:opacity-100">
-        <Meat36
+        <Meat39
           width={340}
           height={340}
           opacity={0.4}
           delay={0.4}
           rotate={-10}
           color="#5b8a7a"
-          className="fixed top-[50%] right-[-20px] -translate-y-1/2 pointer-events-none z-0"
+          className="fixed top-[65%] left-[-20px] -translate-y-1/2 pointer-events-none z-0"
+        />
+      </div>
+      <div className="hidden md:block">
+        <Meat36
+          width={340}
+          height={340}
+          opacity={0.4}
+          delay={0.6}
+          rotate={10}
+          color="#5b8a7a"
+          className="fixed bottom-[-20px] right-[-20px] pointer-events-none z-0"
         />
       </div>
       <main className="relative z-10 pt-28 pb-24 px-8 md:px-16 lg:px-24 max-w-2xl">

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getAllRecipes, getRecipeBySlug } from "@/lib/recipes";
 import Header from "@/components/layout/Header";
-import { Asset47, Asset20, Meat36 } from "@/components/ui/FoodWatermarks";
+import { Asset47, Asset20, Meat39 } from "@/components/ui/FoodWatermarks";
 import FadeIn from "@/components/ui/FadeIn";
 
 export function generateStaticParams() {
@@ -33,7 +33,7 @@ export default async function RecipePage({ params }) {
         rotate={-15}
         flipX
         color="var(--blush)"
-        className="fixed top-[60%] right-[-20px] -translate-y-1/2 pointer-events-none z-0"
+        className="fixed top-[60%] right-[4%] -translate-y-1/2 pointer-events-none z-0"
       />
 
       <div className="hidden md:block">
@@ -49,14 +49,14 @@ export default async function RecipePage({ params }) {
       </div>
 
       <div className="hidden md:block">
-        <Meat36
+        <Meat39
           width={340}
           height={340}
           opacity={0.07}
           delay={0.5}
           rotate={-10}
           color="var(--blush)"
-          className="fixed bottom-[-20px] left-[10%] pointer-events-none z-0"
+          className="fixed bottom-[-20px] left-[4%] pointer-events-none z-0"
         />
       </div>
 
