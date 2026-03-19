@@ -36,25 +36,29 @@ export default async function RecipePage({ params }) {
         className="fixed top-[60%] right-[-20px] -translate-y-1/2 pointer-events-none z-0"
       />
 
-      <Asset20
-        width={380}
-        height={380}
-        opacity={0.07}
-        delay={0.4}
-        rotate={15}
-        color="var(--blush)"
-        className="fixed top-[20%] left-[-20px] -translate-y-1/2 pointer-events-none z-0"
-      />
+      <div className="hidden md:block">
+        <Asset20
+          width={380}
+          height={380}
+          opacity={0.07}
+          delay={0.4}
+          rotate={15}
+          color="var(--blush)"
+          className="fixed top-[20%] left-[-20px] -translate-y-1/2 pointer-events-none z-0"
+        />
+      </div>
 
-      <Meat36
-        width={340}
-        height={340}
-        opacity={0.07}
-        delay={0.5}
-        rotate={-10}
-        color="var(--blush)"
-        className="fixed bottom-[-20px] left-[10%] pointer-events-none z-0"
-      />
+      <div className="hidden md:block">
+        <Meat36
+          width={340}
+          height={340}
+          opacity={0.07}
+          delay={0.5}
+          rotate={-10}
+          color="var(--blush)"
+          className="fixed bottom-[-20px] left-[10%] pointer-events-none z-0"
+        />
+      </div>
 
       <main className="relative z-10 pt-28 pb-24 px-8 md:px-16 lg:px-24 max-w-4xl">
         <FadeIn>
