@@ -25,7 +25,7 @@
       "Broil until the salmon is cooked through and lightly golden and the squash is very soft and slightly browned."
     ],
     "notes": "You can use any summer squash you have on hand — zucchini, yellow squash, or a mix.\n\nUse a thick piece of salmon if possible (about 1–1½ inches thick). Thinner fillets may cook faster, so check them earlier.\n\nCooking time can vary depending on your oven and the thickness of the fish. If the salmon is not quite done, return it to the oven for another minute or two.\n\nLining the baking sheet with parchment paper makes cleanup much easier.",
-    "variation": "Thin asparagus works well in place of the squash and cooks in about the same amount of time.\n\nA couple of chopped green onions scattered over the pan before broiling add a nice mild bite.",
+    "variation": "A couple of chopped green onions scattered over the pan before broiling add a nice mild bite.\n\nThin asparagus works well in place of the squash and cooks in about the same amount of time.",
     "optionalSections": [
       {
         "title": "Optional: Crispy Salmon Skin",
@@ -216,7 +216,7 @@
       "1 lb ground beef",
       "A few handfuls button or cremini mushrooms (whatever fits around the burgers on the pan)",
       "1–2 tablespoons olive oil",
-      "1½ teaspoons sea salt",
+      "1 teaspoon sea salt",
       "½ teaspoon freshly ground black pepper",
       "Optional spices: pinch garlic powder, onion powder, smoked paprika, or a small pinch of asafoetida (hing)"
     ],
@@ -277,13 +277,14 @@
       "Check the potatoes during cooking. If they are very tender when pierced with a fork, remove them and set aside.",
       "Let the chicken rest for about 10 minutes before carving."
     ],
-    "notes": "Cooking time will vary depending on the size of the chicken and your oven.\n\nThe chicken is done when the internal temperature reaches 165°F at the thickest part of the thigh.\n\nUsing a wire rack allows air to circulate around the chicken so the skin crisps better and the chicken stays out of the drippings.\n\nYukon Gold potatoes become very soft and buttery inside while their skins crisp in the oven.\n\nTo serve, split the potatoes and add a little butter, salt, and black pepper. The chicken is also great with yogurt or sour cream and a little hot sauce. Good-quality butter or cultured dairy makes the potatoes especially nice.",
+    "notes": "Cooking time will vary depending on the size of the chicken and your oven.\n\nThe chicken is done when the internal temperature reaches 165°F at the thickest part of the thigh.\n\nUsing a wire rack allows air to circulate around the chicken so the skin crisps better and the chicken stays out of the drippings.\n\nYukon Gold potatoes become very soft and buttery inside while their skins crisp in the oven.\n\nTo serve, split the potatoes and add butter, salt, and black pepper. I'll sometimes add a spoonful of yogurt or sour cream, and a little hot sauce over everything. Good-quality butter or cultured dairy makes it really nice.",
     "optionalSections": [
       {
         "title": "Suggested Side",
         "intro": null,
         "steps": [
-          "A simple green salad balances the richness of the chicken and potatoes."
+          "A simple green salad balances the richness of the chicken and potatoes.",
+          "Simple Steamed Zucchini."
         ],
         "outro": null
       }
@@ -513,7 +514,15 @@
       "Spread them out so they roast rather than steam.",
       "Roast for about 20 minutes, stirring once if you like, until soft and lightly browned."
     ],
-    "notes": "Turnips release some liquid as they cook, so spreading them out on the pan helps them roast instead of steam.\n\nSuggested side: Broiled Pork Chops.\n\nAlso good as a base for taco fillings."
+    "notes": "Turnips release some liquid as they cook, so spreading them out on the pan helps them roast instead of steam.\n\nAlso good as a base for taco fillings.",
+    "optionalSections": [
+      {
+        "title": "Suggested Side",
+        "intro": null,
+        "steps": ["Broiled Pork Chops."],
+        "outro": null
+      }
+    ]
   },
   {
     "slug": "broiled-pork-chops",
@@ -540,7 +549,15 @@
       "Position the pan on the second rack from the top of the oven.",
       "Broil for about 4 minutes per side, until browned and the fat begins to crisp."
     ],
-    "notes": "Cooking time may vary depending on the thickness of the chops and your broiler.\n\nPork chops are done when the internal temperature reaches 145°F. Let them rest for a few minutes before serving.\n\nSuggested side: Smoked Paprika Roasted Turnips."
+    "notes": "Cooking time may vary depending on the thickness of the chops and your broiler.\n\nPork chops are done when the internal temperature reaches 145°F. Let them rest for a few minutes before serving.",
+    "optionalSections": [
+      {
+        "title": "Suggested Side",
+        "intro": null,
+        "steps": ["Smoked Paprika Roasted Turnips."],
+        "outro": null
+      }
+    ]
   },
   {
     "slug": "ginger-tofu-leeks-shiitake",
@@ -569,7 +586,15 @@
       "Grate the ginger over the tofu and add the tamari and black pepper.",
       "Stir and cook for several minutes until everything is heated through and the tofu absorbs the flavor."
     ],
-    "notes": "Draining the tofu first helps it absorb the tamari.\n\nServe on top of quinoa or a baked sweet potato.\n\nSuggested side: Sesame Cucumber Salad."
+    "notes": "Draining the tofu first helps it absorb the tamari.\n\nServe on top of quinoa or a baked sweet potato.",
+    "optionalSections": [
+      {
+        "title": "Suggested Side",
+        "intro": null,
+        "steps": ["Sesame Cucumber Salad."],
+        "outro": null
+      }
+    ]
   },
   {
     "slug": "warm-blueberries-yogurt-pumpkin-seeds",
@@ -758,7 +783,15 @@
       "Spread the squash out so the slices can roast rather than steam.",
       "Roast for 15–20 minutes, stirring once if you like, until tender and lightly browned."
     ],
-    "notes": "The skin of delicata squash is tender and can be eaten.\n\nSuggested side: Instant Pot Mashed Potatoes with Parsnip."
+    "notes": "The skin of delicata squash is tender and can be eaten.",
+    "optionalSections": [
+      {
+        "title": "Suggested Side",
+        "intro": null,
+        "steps": ["Instant Pot Mashed Potatoes with Parsnip."],
+        "outro": null
+      }
+    ]
   },
   {
     "slug": "garlic-herb-pinto-beans",
@@ -811,17 +844,16 @@
       "1 teaspoon coriander seeds",
       "1 small container baby cooking greens (such as baby chard or power greens)",
       "Pinch sea salt",
-      "Freshly ground black pepper",
-      "Optional: ¼ teaspoon ground coriander (if you don't have whole seeds)"
+      "Freshly ground black pepper"
     ],
     "instructions": [
       "Heat a skillet over medium-high heat.",
       "Add the coconut oil.",
       "Add the coriander seeds and cook briefly until fragrant.",
-      "Add the greens and cook quickly, tossing occasionally, until wilted and tender. Let them brown slightly if you like.",
-      "Season with salt and pepper."
+      "Add a pinch of salt and a couple generous grinds of fresh black pepper.",
+      "Add the greens and toss until wilted and tender. Let them brown slightly if you like."
     ],
-    "notes": "If using ground coriander instead of seeds, add it with the greens."
+    "notes": "If you don't have coriander seeds, use ¼ teaspoon ground coriander instead — add it with the salt and pepper, just before the greens."
   },
   {
     "slug": "simple-red-lentil-dal",
@@ -874,5 +906,61 @@
         "outro": null
       }
     ]
+  },
+  {
+    "slug": "apricot-cardamom-chia-pudding",
+    "section": "breakfast-sweets",
+    "title": "Apricot Cardamom Chia Pudding",
+    "description": "A creamy chia pudding with coconut milk and freshly ground cardamom. Lightly sweet, rich, and aromatic, with fresh apricots and pistachios.",
+    "images": {},
+    "tags": ["Vegan", "GF"],
+    "prepTime": "10 minutes (plus soaking time)",
+    "cookTime": null,
+    "servings": "3–4",
+    "ingredients": [
+      "¼ cup chia seeds",
+      "½ cup water",
+      "1 (13–16 oz) can coconut milk",
+      "¼ cup agave, plus more to taste",
+      "½ teaspoon cardamom (freshly ground if possible)",
+      "1½ cups apricots, chopped",
+      "½ cup pistachios, loosely chopped"
+    ],
+    "instructions": [
+      "In a bowl, combine the chia seeds and water. Let sit for about 20 minutes to soften.",
+      "Add the coconut milk, agave, and cardamom.",
+      "Stir well and let sit for a few minutes, then stir again to prevent clumping.",
+      "Taste and adjust sweetness if needed before chilling.",
+      "Cover and refrigerate for at least 1–2 hours, or overnight, until thickened.",
+      "Stir before serving, then lightly fold in the apricots and pistachios."
+    ],
+    "notes": "For the best flavor, grind whole cardamom seeds using a mortar and pestle. Ground cardamom also works.\n\nYou can use your preferred sweetener, adjusting the amount to taste.\n\nBlackberries with pistachios are another favorite — other fruits and nuts work well too."
+  },
+  {
+    "slug": "simple-steamed-zucchini",
+    "section": "sides",
+    "title": "Simple Steamed Zucchini",
+    "description": "A quick, tender way to cook zucchini with just a few ingredients. Light, simple, and easy to pair with almost anything.",
+    "images": {},
+    "tags": ["Vegan", "GF", "Paleo"],
+    "prepTime": "5 minutes",
+    "cookTime": "7–10 minutes",
+    "servings": "2–3",
+    "ingredients": [
+      "2–3 zucchini or yellow squash",
+      "About 1 inch water",
+      "Olive oil or butter",
+      "Salt",
+      "Freshly ground black pepper"
+    ],
+    "instructions": [
+      "Add about 1 inch of water to a pan and bring to a boil.",
+      "Chop the zucchini into large pieces (about ½ inch or slightly larger).",
+      "Add the zucchini to the pan, cover, and reduce heat to low once boiling.",
+      "Simmer for about 7 minutes, until tender.",
+      "Pour off most of the cooking water.",
+      "Add a little olive oil or butter, salt, and black pepper. Toss gently."
+    ],
+    "notes": "This is a soft, simple preparation — cook less if you prefer more bite.\n\nGood alongside roasted meats or simple plates."
   }
 ]
