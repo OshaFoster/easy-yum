@@ -8,7 +8,7 @@ export default function AboutPage() {
   return (
     <div style={{ backgroundColor: "var(--bg)" }}>
       <Header />
-      <div className="opacity-30 md:opacity-100">
+      <div className="opacity-60 md:opacity-100">
         <Meat36
           width={340}
           height={340}
