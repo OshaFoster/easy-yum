@@ -8,7 +8,7 @@ export default function AboutPage() {
   return (
     <div style={{ backgroundColor: "var(--bg)" }}>
       <Header />
-      <div className="opacity-60 md:opacity-100">
+      <div className="hidden md:block">
         <Meat39
           width={340}
           height={340}
@@ -19,7 +19,7 @@ export default function AboutPage() {
           className="fixed top-[65%] left-[-20px] -translate-y-1/2 pointer-events-none z-0"
         />
       </div>
-      <div className="hidden md:block">
+      <div className="opacity-60 md:opacity-100">
         <Meat36
           width={340}
           height={340}

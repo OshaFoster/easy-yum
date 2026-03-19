@@ -51,6 +51,10 @@ export function Asset20(props) {
   return <Watermark src="/watermarks/Asset%2020.svg" {...props} />;
 }
 
+export function Asset9(props) {
+  return <Watermark src="/watermarks/Asset%209.svg" {...props} />;
+}
+
 export function Asset47(props) {
   return <Watermark src="/watermarks/Asset%2047.svg" {...props} />;
 }

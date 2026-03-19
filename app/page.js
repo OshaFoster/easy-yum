@@ -10,8 +10,8 @@ export default function Home() {
     <div style={{ backgroundColor: "var(--bg)" }}>
       {/* Background watermarks */}
       <div className="hidden md:block"><Carrot width={360} height={360} opacity={0.2} delay={0.2} rotate={-15} className="fixed top-[60px] right-[-60px] pointer-events-none z-0" /></div>
-      <Onion  width={340} height={340} opacity={0.2} delay={0.5} className="fixed top-[38%] left-[-20px] pointer-events-none z-0" />
-      <div className="hidden md:block"><Beet   width={380} height={380} opacity={0.2} delay={0.8} rotate={10} className="fixed bottom-[10px] right-[18%] pointer-events-none z-0" /></div>
+      <Onion  width={340} height={340} opacity={0.2} delay={0.5} className="fixed top-[48%] left-[-50px] pointer-events-none z-0" />
+      <div className="hidden md:block"><Beet   width={340} height={340} opacity={0.2} delay={0.8} rotate={10} className="fixed bottom-[10px] right-[18%] pointer-events-none z-0" /></div>
 
       <Header />
 
