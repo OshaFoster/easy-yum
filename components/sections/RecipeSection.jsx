@@ -20,7 +20,7 @@ export default function RecipeSection({ recipes }) {
   const [activeSection, setActiveSection] = useState(groupedSections[0]?.id ?? null);
   const [activeFilter, setActiveFilter] = useState("All");
 
-  const FILTERS = ["All", "GF", "Vegan", "Paleo", "One-Pan"];
+  const FILTERS = ["All", "GF", "Vegan", "Paleo", "Quick"];
 
   // Measure nav height and keep updated on resize
   useEffect(() => {
