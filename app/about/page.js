@@ -30,35 +30,36 @@ export default function AboutPage() {
           className="fixed bottom-[-20px] right-[-20px] pointer-events-none z-0"
         />
       </div>
-      <main className="relative z-10 pt-28 pb-24 px-8 md:px-16 lg:pt-16 lg:pb-12 lg:px-24 max-w-2xl lg:w-5/6 lg:max-w-none">
+      <main className="relative z-10 pt-32 pb-24 px-8 md:px-16 lg:pt-32 xl:pt-40 lg:pb-12 lg:px-24 max-w-2xl lg:w-full xl:w-5/6 lg:max-w-none">
         <Link
           href="/"
-          className="inline-flex items-center gap-2 text-sm tracking-widest uppercase mb-10 lg:mb-8 transition-opacity duration-150 hover:opacity-50"
+          className="md:hidden inline-flex items-center gap-2 text-sm tracking-widest uppercase mb-10 transition-opacity duration-150 hover:opacity-50"
           style={{ color: "var(--ink-muted)" }}
         >
           ← Recipes
         </Link>
-
         <section>
-          <h1 className="font-display text-5xl mb-8 lg:mb-6" style={{ color: "var(--ink)" }}>About Easy, Yum!</h1>
-          <div className="flex flex-col gap-5 text-lg leading-relaxed" style={{ color: "var(--ink-muted)" }}>
+<div className="flex flex-col gap-5 text-lg leading-relaxed" style={{ color: "var(--ink-muted)" }}>
             <p>
-              Simple food, cooked well. These are the recipes I actually make—few ingredients, not much effort, and worth repeating.
+              Simple food, cooked well. These are the recipes I actually make—few ingredients, not much effort, and worth repeating, I think.
             </p>
             <p>
               I&apos;m lucky to live in a rural area where there&apos;s good local meat, dairy, and vegetables. I prefer grass-fed meat and local produce when I can get it—organic after that, and something that looks genuinely alive when I can&apos;t.
             </p>
             <p>
-              Things I keep in mind are nutritional density, the impact on the environment, and the quality of life for the animal. These recipes are also gluten-free, because that&apos;s how I cook. When I use dairy, I tend to choose cultured or higher-quality options when I can.
+              Things I keep in mind are nutritional density, the impact on the environment, and the quality of life for the animal. These recipes are also gluten-free, because that&apos;s how I cook, though many would go well with bread. When I use dairy, I tend to choose cultured or higher-quality options when available.
             </p>
             <p>
-              I typically cook with olive oil, but you can swap in butter, coconut oil, or whatever fat you prefer. I try to use fresh herbs when I have them, but dried herbs, crushed between your fingers, are usually what I&apos;m using.
+              I usually keep a few things in the fridge—roasted nuts or seeds that I toast myself, and something fermented, like pickles, sauerkraut, or kimchi. I&apos;ll add these to meals for a little extra nutrition, crunch, and flavor.
+            </p>
+            <p>
+              I typically cook with olive oil, but you can swap in butter, coconut oil, or whatever fat you prefer. I try to use fresh herbs when I have them, but most of the time I use dried herbs, crushed between my fingers.
             </p>
             <p>
               Measurements here are a starting point. I cook pretty intuitively. After a few of these, you&apos;ll get a feel for it—a lot of the vegetables and flavors are interchangeable, especially in the roasting dishes. I encourage you to cook to your taste.
             </p>
             <p>
-              Made with my daughter in mind. If you find a few recipes you come back to, that&apos;s the whole point.
+              Made with my daughter and some friends in mind. If you find a few recipes you come back to, that&apos;s the whole point.
             </p>
             <p>
               If you cook something you love and feel inclined, you can donate. Easy Yum is a work in progress.
