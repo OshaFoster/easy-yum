@@ -19,8 +19,14 @@ export default function DonateButton() {
   const mobileDonateButtonBottom = `calc(1rem + ${mobileSafeArea})`;
   const mobileDonateSheetBottom = mobileSafeArea;
 
-  const open = () => setShowDonate(true);
-  const close = () => setShowDonate(false);
+  const open = () => {
+    setShowDonate(true);
+    document.body.style.overflow = 'hidden';
+  };
+  const close = () => {
+    setShowDonate(false);
+    document.body.style.overflow = '';
+  };
 
   const renderDonateContent = (variant) => {
     const isMobile = variant === 'mobile';
