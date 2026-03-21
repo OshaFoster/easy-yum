@@ -66,3 +66,7 @@ export function Meat36(props) {
 export function Meat39(props) {
   return <Watermark src="/watermarks/Meat_39.svg" {...props} />;
 }
+
+export function Meat37(props) {
+  return <Watermark src="/watermarks/Meat_37.svg" {...props} />;
+}

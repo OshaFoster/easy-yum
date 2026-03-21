@@ -28,7 +28,7 @@ export default function DonateButton() {
       <div
         className={`relative ${
           isMobile
-            ? 'mx-4 rounded-t-3xl shadow-lg'
+            ? 'mx-2 rounded-t-3xl shadow-lg'
             : 'w-[260px] rounded-lg shadow-lg'
         } bg-[#2d3a4a] overflow-hidden animate-slide-up`}
         style={{
@@ -53,6 +53,24 @@ export default function DonateButton() {
         </p>
         <p className="text-sm font-medium text-white/60" style={{ marginBottom: '4px' }}>venmo</p>
         <p className="text-lg text-white">@Osha-Foster</p>
+          {/* Mobile */}
+          <img
+            src="/watermarks/Meat_42.svg"
+            width={180}
+            height={180}
+            aria-hidden="true"
+            className="md:hidden absolute bottom-[-55px] right-[10px] pointer-events-none"
+            style={{ filter: 'brightness(0) invert(1)', opacity: 0.35, transform: 'rotate(65deg)' }}
+          />
+          {/* Desktop */}
+          <img
+            src="/watermarks/Meat_42.svg"
+            width={180}
+            height={180}
+            aria-hidden="true"
+            className="hidden md:block absolute bottom-[-30px] right-[-45px] pointer-events-none"
+            style={{ filter: 'brightness(0) invert(1)', opacity: 0.35, transform: 'rotate(30deg)' }}
+          />
       </div>
     );
   };
