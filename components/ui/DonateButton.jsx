@@ -56,20 +56,20 @@ export default function DonateButton() {
           {/* Mobile */}
           <img
             src="/watermarks/Meat_42.svg"
-            width={180}
-            height={180}
+            width={130}
+            height={130}
             aria-hidden="true"
-            className="md:hidden absolute bottom-[-55px] right-[10px] pointer-events-none"
-            style={{ filter: 'brightness(0) invert(1)', opacity: 0.35, transform: 'rotate(65deg)' }}
+            className="md:hidden absolute pointer-events-none"
+            style={{ filter: 'brightness(0) invert(1)', opacity: 0.28, transform: 'rotate(65deg)', bottom: '-35px', right: '-20px' }}
           />
           {/* Desktop */}
           <img
             src="/watermarks/Meat_42.svg"
-            width={180}
-            height={180}
+            width={130}
+            height={130}
             aria-hidden="true"
-            className="hidden md:block absolute bottom-[-30px] right-[-45px] pointer-events-none"
-            style={{ filter: 'brightness(0) invert(1)', opacity: 0.35, transform: 'rotate(30deg)' }}
+            className="hidden md:block absolute bottom-[-30px] right-[-35px] pointer-events-none"
+            style={{ filter: 'brightness(0) invert(1)', opacity: 0.28, transform: 'rotate(30deg)' }}
           />
       </div>
     );

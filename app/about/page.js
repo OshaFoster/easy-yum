@@ -30,7 +30,7 @@ export default function AboutPage() {
           className="fixed bottom-[-20px] right-[-20px] pointer-events-none z-0"
         />
       </div>
-      <main className="relative z-10 pt-32 pb-24 px-8 md:px-16 lg:pt-32 xl:pt-40 lg:pb-12 lg:px-24 max-w-2xl lg:w-full xl:w-5/6 lg:max-w-none">
+      <main className="relative z-10 pt-32 pb-10 px-8 md:px-16 lg:pt-32 xl:pt-40 lg:pb-12 lg:px-24 max-w-2xl lg:w-full xl:w-5/6 lg:max-w-none">
         <Link
           href="/"
           className="md:hidden inline-flex items-center gap-2 text-sm tracking-widest uppercase mb-10 transition-opacity duration-150 hover:opacity-50"
