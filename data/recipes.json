@@ -363,7 +363,7 @@
       "Heat the olive oil in a skillet over medium-high heat.",
       "Cook the meatballs for about 6–8 minutes, turning occasionally, until browned on the outside and still slightly pink inside."
     ],
-    "notes": "Red onion adds a little sweetness that works well with the five-spice.\n\nGreen onion can also be used in place of red onion if you prefer.",
+    "notes": "Red onion adds a little sweetness that works well with the five-spice.\n\nGreen onion can also be used in place of red onion if you prefer.\n\nThese have no binder, so handle them gently.",
     "optionalSections": [
       {
         "title": "Suggested Side",
@@ -671,7 +671,7 @@
     "slug": "simple-greens-avocado-hemp-seeds",
     "section": "salads",
     "title": "Simple Greens with Avocado & Hemp Seeds",
-    "description": "Fresh greens with creamy avocado, hemp seeds, olive oil, and vinegar. A simple salad that can be varied with a few colorful additions.",
+    "description": "Fresh greens with creamy avocado, hemp seeds, and a light vinaigrette. Red bell pepper adds a touch of sweetness and color, making this a simple, everyday salad you can build on.",
     "images": {},
     "tags": ["Vegan", "GF", "Paleo", "Quick"],
     "prepTime": "5 minutes",
@@ -681,24 +681,20 @@
       "2 cups spring mix or mixed greens",
       "½ ripe avocado, sliced or cubed",
       "1 tablespoon hemp seeds",
+      "¼ cup chopped red bell pepper",
       "1 tablespoon olive oil",
       "1–2 teaspoons vinegar (balsamic, ume plum, or apple cider)",
       "Pinch sea salt",
-      "Freshly ground black pepper",
-      "Optional: chopped red bell pepper",
-      "Optional: thinly sliced or chopped carrot",
-      "Optional: pumpkin seeds or sunflower seeds",
-      "Optional: chopped parsley",
-      "Optional: microgreens or sprouts"
+      "Freshly ground black pepper"
     ],
     "instructions": [
       "Place the greens in a bowl.",
-      "Add the avocado and hemp seeds.",
+      "Add the avocado, hemp seeds, and red bell pepper.",
       "Drizzle with olive oil and vinegar.",
       "Season with salt and pepper.",
       "Toss gently to combine."
     ],
-    "notes": "Red bell pepper adds sweetness, while pumpkin or sunflower seeds add extra crunch.\n\nPairs well with Rustic Skillet Beets or Oven Sweet Potato Fries."
+    "notes": "This is a simple base salad. Add anything with color or crunch to make it your own — thinly sliced carrot, shredded purple cabbage, seeds, fresh herbs, or sprouts all work well.\n\nPairs well with Rustic Skillet Beets or Oven Sweet Potato Fries."
   },
   {
     "slug": "creamy-grated-cabbage-slaw",
@@ -975,7 +971,7 @@
       "Cover and refrigerate for at least 1–2 hours, or overnight, until thickened.",
       "Stir before serving, then lightly fold in the apricots and pistachios."
     ],
-    "notes": "For the best flavor, grind whole cardamom seeds using a mortar and pestle. Ground cardamom also works.\n\nYou can use your preferred sweetener, adjusting the amount to taste.\n\nBlackberries with pistachios are another favorite — other fruits and nuts work well too."
+    "notes": "For the best flavor, grind whole cardamom seeds using a mortar and pestle. Ground cardamom also works.\n\nYou can use your preferred sweetener, adjusting the amount to taste.\n\nRipe fruit makes a real difference here. Let apricots soften on the counter until they're sweet and fragrant. The same goes for blackberries — fully ripe ones are noticeably better.\n\nBlackberries with pistachios are another favorite — other fruits and nuts work well too."
   },
   {
     "slug": "simple-steamed-zucchini",
