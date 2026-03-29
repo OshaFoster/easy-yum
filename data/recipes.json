@@ -589,15 +589,7 @@
       "Grate the ginger over the tofu and add the tamari and black pepper.",
       "Stir and cook for several minutes until everything is heated through and the tofu absorbs the flavor."
     ],
-    "notes": "Draining the tofu first helps it absorb the tamari.\n\nServe on top of quinoa or a baked sweet potato.",
-    "optionalSections": [
-      {
-        "title": "Suggested Side",
-        "intro": null,
-        "steps": [{ "text": "Sesame Cucumber Salad.", "slug": "sesame-cucumber-salad" }],
-        "outro": null
-      }
-    ]
+    "notes": "Draining the tofu first helps it absorb the tamari.\n\nServe on top of quinoa or a baked sweet potato."
   },
   {
     "slug": "warm-blueberries-yogurt-pumpkin-seeds",
@@ -726,35 +718,6 @@
       "Toss until everything is lightly coated."
     ],
     "notes": "The finely grated vegetables give this slaw a softer texture than traditional coleslaw."
-  },
-  {
-    "slug": "sesame-cucumber-salad",
-    "section": "salads",
-    "title": "Sesame Cucumber Salad",
-    "description": "Thinly sliced cucumbers tossed with sesame oil and rice vinegar. A light, refreshing salad with simple savory flavor.",
-    "images": {},
-    "tags": ["Vegan", "GF", "Paleo", "Quick"],
-    "prepTime": "5 minutes",
-    "cookTime": null,
-    "servings": "2–3",
-    "ingredients": [
-      "2 medium cucumbers",
-      "1 tablespoon sesame oil",
-      "1 tablespoon rice vinegar",
-      "Pinch sea salt",
-      "Freshly ground black pepper",
-      "Optional: toasted sesame seeds"
-    ],
-    "instructions": [
-      "Trim the ends of the cucumbers.",
-      "Peel away about one-third of the skin in strips if you like.",
-      "Slice the cucumbers thinly into rounds or half-moons.",
-      "Place them in a bowl.",
-      "Add the sesame oil, rice vinegar, salt, and pepper.",
-      "Toss gently to combine.",
-      "Sprinkle with toasted sesame seeds if using."
-    ],
-    "notes": "Good alongside Ginger Tofu with Leeks & Shiitake."
   },
   {
     "slug": "roasted-delicata-squash",
@@ -940,7 +903,6 @@
         "title": "Suggested Side",
         "intro": null,
         "steps": [
-          { "text": "Sesame Cucumber Salad.", "slug": "sesame-cucumber-salad" },
           { "text": "Simple Steamed Zucchini.", "slug": "simple-steamed-zucchini" }
         ],
         "outro": null
