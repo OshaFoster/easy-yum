@@ -214,11 +214,12 @@
     "servings": 4,
     "ingredients": [
       "1 lb ground beef",
+      "½ small red onion, finely chopped",
       "A few handfuls button or cremini mushrooms (whatever fits around the burgers on the pan)",
       "1–2 tablespoons olive oil",
-      "1 teaspoon sea salt",
-      "½ teaspoon freshly ground black pepper",
-      "Optional spices: pinch garlic powder, onion powder, smoked paprika, or a small pinch of asafoetida (hing)"
+      "2 teaspoons Chinese five spice powder",
+      "1 teaspoon salt",
+      "½ teaspoon freshly ground black pepper"
     ],
     "instructions": [
       "Preheat the oven to 400°F.",
@@ -243,7 +244,7 @@
         "title": "Suggested Side",
         "intro": null,
         "steps": [
-          "Oven Sweet Potato Fries."
+          { "text": "Oven Sweet Potato Fries.", "slug": "oven-sweet-potato-fries" }
         ],
         "outro": null
       }
@@ -273,8 +274,8 @@
       "Season the chicken generously with salt, pepper, and herbs.",
       "Rinse the potatoes and place them whole on the rack or around the chicken on the pan.",
       "Roast the chicken at 500°F for 20 minutes to begin crisping the skin.",
-      "Lower the oven temperature to 300°F and continue roasting for about 1 hour, until the chicken is cooked through and the juices run clear.",
-      "Check the potatoes during cooking. If they are very tender when pierced with a fork, remove them and set aside.",
+      "Lower the oven temperature to 350°F and continue roasting for about 1 hour, until the chicken is cooked through and the juices run clear.",
+      "The potatoes should be ready around the same time as the chicken. In the last 15 minutes, pierce one with a fork — if very tender, remove them and set aside until the chicken is done.",
       "Let the chicken rest for about 10 minutes before carving."
     ],
     "notes": "Cooking time will vary depending on the size of the chicken and your oven.\n\nThe chicken is done when the internal temperature reaches 165°F at the thickest part of the thigh.\n\nUsing a wire rack allows air to circulate around the chicken so the skin crisps better and the chicken stays out of the drippings.\n\nYukon Gold potatoes become very soft and buttery inside while their skins crisp in the oven.\n\nTo serve, split the potatoes and add butter, salt, and black pepper. I'll sometimes add a spoonful of yogurt or sour cream, and a little hot sauce over everything. Good-quality butter or cultured dairy makes it really nice.",
@@ -284,7 +285,7 @@
         "intro": null,
         "steps": [
           "A simple green salad balances the richness of the chicken and potatoes.",
-          "Simple Steamed Zucchini."
+          { "text": "Simple Steamed Zucchini.", "slug": "simple-steamed-zucchini" }
         ],
         "outro": null
       }
@@ -333,7 +334,7 @@
         "title": "Suggested Side",
         "intro": null,
         "steps": [
-          "Great with Oven Sweet Potato Fries."
+          { "text": "Oven Sweet Potato Fries.", "slug": "oven-sweet-potato-fries" }
         ],
         "outro": null
       }
@@ -361,15 +362,17 @@
       "Mix everything together with your hands until evenly combined.",
       "Divide the mixture into 8 portions and roll them into large meatballs.",
       "Heat the olive oil in a skillet over medium-high heat.",
-      "Cook the meatballs for about 6–8 minutes, turning occasionally, until browned on the outside and still slightly pink inside."
+      "Add the meatballs and brown on the outside, about 4 minutes, turning gently.",
+      "Lower the heat to medium and continue cooking for another 4 minutes, until cooked through but still slightly pink inside."
     ],
-    "notes": "Red onion adds a little sweetness that works well with the five-spice.\n\nGreen onion can also be used in place of red onion if you prefer.\n\nThese have no binder, so handle them gently.",
+    "notes": "Red onion adds a little sweetness that works well with the five-spice.\n\nGreen onion can also be used in place of red onion if you prefer.\n\nThese have no binder, so handle them gently.\n\nDon't overcook — these dry out quickly.",
     "optionalSections": [
       {
         "title": "Suggested Side",
         "intro": null,
         "steps": [
-          "Instant Pot Mashed Potatoes with Parsnip."
+          { "text": "Instant Pot Mashed Potatoes with Parsnip.", "slug": "instant-pot-mashed-potatoes-parsnip" },
+          { "text": "Cucumber and Fennel Salad.", "slug": "cucumber-fennel-salad" }
         ],
         "outro": null
       },
@@ -519,7 +522,7 @@
       {
         "title": "Suggested Side",
         "intro": null,
-        "steps": ["Broiled Pork Chops."],
+        "steps": [{ "text": "Broiled Pork Chops.", "slug": "broiled-pork-chops" }],
         "outro": null
       }
     ]
@@ -554,7 +557,7 @@
       {
         "title": "Suggested Side",
         "intro": null,
-        "steps": ["Smoked Paprika Roasted Turnips."],
+        "steps": [{ "text": "Smoked Paprika Roasted Turnips.", "slug": "smoked-paprika-roasted-turnips" }],
         "outro": null
       }
     ]
@@ -591,7 +594,7 @@
       {
         "title": "Suggested Side",
         "intro": null,
-        "steps": ["Sesame Cucumber Salad."],
+        "steps": [{ "text": "Sesame Cucumber Salad.", "slug": "sesame-cucumber-salad" }],
         "outro": null
       }
     ]
@@ -784,7 +787,7 @@
       {
         "title": "Suggested Side",
         "intro": null,
-        "steps": ["Instant Pot Mashed Potatoes with Parsnip."],
+        "steps": [{ "text": "Instant Pot Mashed Potatoes with Parsnip.", "slug": "instant-pot-mashed-potatoes-parsnip" }],
         "outro": null
       }
     ]
@@ -897,7 +900,7 @@
         "title": "Suggested Side",
         "intro": null,
         "steps": [
-          "Quick Skillet Greens with Coriander."
+          { "text": "Quick Skillet Greens with Coriander.", "slug": "quick-skillet-greens-coriander" }
         ],
         "outro": null
       }
@@ -937,8 +940,8 @@
         "title": "Suggested Side",
         "intro": null,
         "steps": [
-          "Sesame Cucumber Salad.",
-          "Simple Steamed Zucchini."
+          { "text": "Sesame Cucumber Salad.", "slug": "sesame-cucumber-salad" },
+          { "text": "Simple Steamed Zucchini.", "slug": "simple-steamed-zucchini" }
         ],
         "outro": null
       }
@@ -1032,5 +1035,101 @@
       "Finish: Drizzle with olive oil and add a squeeze of lemon or a small splash of vinegar. Top with fresh herbs if using."
     ],
     "notes": "Cooking the beans twice (with a rinse in between) can make them easier to digest and gives a cleaner flavor.\n\nKeep the vegetables slightly firm for the best texture.\n\nFinish with lemon or vinegar to brighten the dish."
+  },
+  {
+    "slug": "tender-beef-chili-cumin",
+    "section": "simple-plates",
+    "title": "Tender Beef with Chili and Cumin",
+    "description": "A warm, savory beef in a chili and cumin broth. Good on its own or as the center of a meal.",
+    "images": {},
+    "tags": ["GF", "Paleo"],
+    "prepTime": "10 minutes",
+    "cookTime": "About 2 hours",
+    "servings": "3–4",
+    "ingredients": [
+      "1–2 lb beef roast",
+      "1 tablespoon olive oil",
+      "1 teaspoon chili powder",
+      "1 teaspoon cumin",
+      "½ teaspoon garlic powder",
+      "½ teaspoon dried oregano",
+      "Salt and black pepper",
+      "2½ cups water"
+    ],
+    "instructions": [
+      "Heat the olive oil using the sauté function on an Instant Pot.",
+      "Season the beef lightly with salt and place in the pot. Brown on all sides.",
+      "Add the chili powder, cumin, garlic powder, oregano, salt, and pepper. Turn the meat to coat and let the spices warm briefly.",
+      "Pour in the water, scraping the bottom of the pot to release any browned bits.",
+      "Seal and cook on high pressure for 2 hours.",
+      "Let the pressure release naturally.",
+      "Serve the beef in pieces with the broth."
+    ],
+    "notes": "The beef should be very tender and easy to pull apart.\n\nThis makes a rich, flavorful broth along with the meat.\n\nUse enough water to create broth, but do not cover the meat.\n\nAdjust the spices slightly if using a larger roast.\n\nGood with the mashed potatoes and a spoonful of yogurt or sour cream.",
+    "optionalSections": [
+      {
+        "title": "Suggested Side",
+        "intro": null,
+        "steps": [
+          { "text": "Instant Pot Mashed Potatoes with Parsnip.", "slug": "instant-pot-mashed-potatoes-parsnip" },
+          { "text": "Simple Steamed Zucchini.", "slug": "simple-steamed-zucchini" },
+          { "text": "Cucumber and Fennel Salad.", "slug": "cucumber-fennel-salad" }
+        ],
+        "outro": null
+      }
+    ]
+  },
+  {
+    "slug": "cucumber-fennel-salad",
+    "section": "salads",
+    "title": "Cucumber and Fennel Salad",
+    "description": "A simple, crisp salad. Cool, bright, and lightly aromatic.",
+    "images": {},
+    "tags": ["Vegan", "GF", "Paleo", "Quick"],
+    "prepTime": "5 minutes",
+    "servings": "2",
+    "ingredients": [
+      "½ cucumber",
+      "¼–½ fennel bulb, sliced very thin",
+      "A small pinch fennel fronds, chopped",
+      "Juice of ½ lime",
+      "A good pinch of sea salt"
+    ],
+    "instructions": [
+      "Cut the cucumber into quarters lengthwise, then slice thinly.",
+      "Slice the fennel very thin and roughly chop.",
+      "Place everything in a bowl with the fennel fronds.",
+      "Add the lime juice and salt.",
+      "Toss gently to combine. Let sit for a few minutes before serving."
+    ],
+    "notes": "Slice everything thin so the textures come together.\n\nThe fennel fronds add a soft, herbal note.\n\nAdjust salt and lime to taste — the balance is what brings it together.\n\nThis pairs well with warm, savory dishes."
+  },
+  {
+    "slug": "morning-miso-bok-choy-ginger-scallion-sesame",
+    "section": "broths-soups",
+    "title": "Morning Miso (Bok Choy, Ginger, Scallion, Sesame)",
+    "description": "A simple bowl to start the day. Light, warm, with a little brightness.",
+    "images": {},
+    "tags": ["Vegan", "GF", "Quick", "Light"],
+    "prepTime": "5 minutes",
+    "cookTime": "5 minutes",
+    "servings": "1",
+    "ingredients": [
+      "2 cups water",
+      "2 slightly rounded teaspoons miso (about 1 tablespoon)",
+      "3–4 small bok choy leaves, sliced very thin",
+      "1 tablespoon green onion, sliced",
+      "½ teaspoon grated fresh ginger",
+      "Small drizzle toasted sesame oil",
+      "Small squeeze lime (or a few drops rice vinegar)"
+    ],
+    "instructions": [
+      "Bring the water to a boil in a small pan.",
+      "Turn off the heat and add the bok choy, green onion, and ginger. Let sit for about a minute, until just softened.",
+      "In a bowl, stir the miso with a little of the hot liquid until smooth.",
+      "Pour the vegetables and broth into the bowl and stir gently to combine.",
+      "Finish with a small drizzle of sesame oil and a squeeze of lime."
+    ],
+    "notes": "Slice everything very thin so it softens quickly.\n\nAdd the miso at the end so it doesn't cook.\n\nKeep the lime subtle — just enough to lift the broth.\n\nThis works with other greens or thinly sliced vegetables, like zucchini, carrots, or sweet potato."
   }
 ]

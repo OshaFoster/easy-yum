@@ -163,14 +163,21 @@ export default async function RecipePage({ params }) {
               <p className="text-sm italic mb-4" style={{ color: "var(--ink-muted)" }}>{section.intro}</p>
             )}
             <ol className="flex flex-col gap-4 max-w-2xl">
-              {section.steps.map((step, j) => (
-                <li key={j} className="flex gap-4 text-base leading-relaxed" style={{ color: "var(--ink)" }}>
-                  {section.steps.length > 1 && (
-                    <span className="shrink-0 text-sm pt-0.5 w-5" style={{ color: "var(--ink-muted)" }}>{j + 1}.</span>
-                  )}
-                  <span>{step}</span>
-                </li>
-              ))}
+              {section.steps.map((step, j) => {
+                const isLink = typeof step === 'object' && step.slug;
+                return (
+                  <li key={j} className="flex gap-4 text-base leading-relaxed" style={{ color: "var(--ink)" }}>
+                    {section.steps.length > 1 && (
+                      <span className="shrink-0 text-sm pt-0.5 w-5" style={{ color: "var(--ink-muted)" }}>{j + 1}.</span>
+                    )}
+                    {isLink ? (
+                      <Link href={`/recipes/${step.slug}`} className="underline underline-offset-2 transition-opacity duration-150 hover:opacity-50" style={{ color: "var(--ink)" }}>{step.text}</Link>
+                    ) : (
+                      <span>{step}</span>
+                    )}
+                  </li>
+                );
+              })}
             </ol>
             {section.outro && (
               <p className="text-base italic mt-4" style={{ color: "var(--ink-muted)" }}>{section.outro}</p>
