@@ -38,7 +38,7 @@ export default function RecipeSection({ recipes }) {
 
   useEffect(() => {
     const handleScroll = () => {
-      const offset = 84 + navHeightRef.current + 16;
+      const offset = window.innerHeight * 0.5;
       let current = groupedSections[0]?.id;
       for (const section of groupedSections) {
         const el = sectionRefs.current[section.id];

@@ -2,26 +2,26 @@
   {
     "id": "simple-plates",
     "title": "Simple Plates",
-    "description": "These are easy, satisfying meals I make again and again—good for breakfast, lunch, or dinner. Most are one-pan dishes built around a protein and a vegetable, simply seasoned to let the flavor of the food come through."
+    "description": "Easy, satisfying meals I make again and again—good for breakfast, lunch, or dinner. Most are one-pan dishes built around a protein and a vegetable, simply seasoned to let the flavor of the food come through."
   },
   {
     "id": "sides",
     "title": "Sides",
-    "description": "Vegetable dishes and small plates to round out a meal. Simply prepared and lightly seasoned to bring out the natural flavor of the ingredients."
+    "description": "Simple sides with flavor combinations I enjoy. Good alongside a meal or as a starting point."
   },
   {
     "id": "salads",
     "title": "Salads",
-    "description": "Fresh, simple combinations of vegetables, herbs, and light dressings. These recipes focus on clean ingredients and balanced flavor."
+    "description": "There are lots of salad recipes in the world. I think salads are best made to your taste. These are a few I like."
   },
   {
     "id": "breakfast-sweets",
     "title": "Breakfast & Sweets",
-    "description": "Fruit-forward breakfasts and lightly sweet recipes made with simple, whole ingredients. Many of these dishes work as either a morning meal or a small dessert."
+    "description": "I like a little something sweet. Simple, thoughtful combinations that come together easily."
   },
   {
     "id": "broths-soups",
     "title": "Broths & Soups",
-    "description": "Nourishing broths and comforting soups made with simple ingredients, focusing on warmth, depth of flavor, and gentle nourishment."
+    "description": "Simple broths and soups I come back to. Warm, a little interesting, and easy to make."
   }
 ]
