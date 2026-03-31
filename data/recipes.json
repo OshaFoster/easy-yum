@@ -759,7 +759,7 @@
     "slug": "garlic-herb-pinto-beans",
     "section": "sides",
     "title": "Garlic Herb Pinto Beans",
-    "description": "Tender pinto beans finished with butter, olive oil, garlic, thyme, and rosemary. A rich, comforting side dish.",
+    "description": "Soft, savory beans with garlic and herbs.",
     "images": {},
     "tags": ["GF"],
     "prepTime": "5 minutes",
@@ -782,11 +782,11 @@
       "Cook on High Pressure for 30 minutes.",
       "Drain and rinse the beans.",
       "Return the beans to the Instant Pot, cover with fresh water just to cover, add the salt, and cook on High Pressure for another 30 minutes.",
-      "Drain most of the cooking water, leaving the beans moist but not soupy. Transfer the beans to a bowl.",
-      "Rinse out the Instant Pot and set it to Sauté. Add the butter and olive oil.",
-      "When the butter melts, add the garlic and cook briefly until fragrant, without browning.",
-      "Add the thyme and rosemary.",
-      "Pour the garlic-herb mixture over the beans and stir lightly to combine.",
+      "Drain most of the cooking water, leaving the beans moist but not soupy.",
+      "In a small pan, melt the butter with the olive oil over medium-low heat.",
+      "Add the garlic and cook briefly until fragrant, without browning.",
+      "Add the rosemary and thyme and stir for about 30 seconds, then remove from heat.",
+      "Pour the garlic-herb mixture over the beans and stir gently to combine.",
       "Season with black pepper and add lemon zest or a squeeze of lemon if you like."
     ],
     "notes": "These beans are especially good served on buttered bread or alongside a nice piece of meat."
@@ -864,46 +864,6 @@
         "intro": null,
         "steps": [
           { "text": "Quick Skillet Greens with Coriander.", "slug": "quick-skillet-greens-coriander" }
-        ],
-        "outro": null
-      }
-    ]
-  },
-  {
-    "slug": "teriyaki-roasted-portobello",
-    "section": "simple-plates",
-    "title": "Teriyaki Roasted Portobello Mushrooms",
-    "description": "Portobello mushrooms roasted with a simple teriyaki-style marinade. Savory, slightly sweet, and full of flavor.",
-    "images": {},
-    "tags": ["Vegan", "GF", "Quick"],
-    "prepTime": "10 minutes",
-    "cookTime": "20–22 minutes",
-    "servings": "2–3",
-    "ingredients": [
-      "2–4 large portobello mushrooms, trimmed and cleaned",
-      "2 tablespoons olive oil",
-      "2 tablespoons tamari",
-      "1–2 teaspoons maple syrup",
-      "1 teaspoon fresh ginger, grated",
-      "1 clove garlic, minced"
-    ],
-    "instructions": [
-      "Preheat oven to 400°F.",
-      "Place the mushrooms on a baking sheet.",
-      "In a small bowl, mix the olive oil, tamari, maple syrup, ginger, and garlic.",
-      "Spoon or brush the mixture over the mushrooms.",
-      "Roast for about 20 minutes, until tender.",
-      "Remove from the oven and slice the mushrooms.",
-      "Toss the sliced mushrooms in the pan juices.",
-      "Return to the oven for another 1–2 minutes if needed."
-    ],
-    "notes": "The mushrooms will absorb the sauce as they cook, so they should be well coated and juicy.\n\nAdjust sweetness and salt to taste.\n\nGood with rice, greens, or simple sides.",
-    "optionalSections": [
-      {
-        "title": "Suggested Side",
-        "intro": null,
-        "steps": [
-          { "text": "Simple Steamed Zucchini.", "slug": "simple-steamed-zucchini" }
         ],
         "outro": null
       }
