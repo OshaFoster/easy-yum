@@ -28,11 +28,11 @@ export default async function RecipePage({ params }) {
       <Asset47
         width={460}
         height={460}
-        opacity={0.07}
+        opacity={1}
         delay={0.3}
         rotate={-15}
         flipX
-        color="var(--blush)"
+        color="#b8860b"
         className="fixed top-[60%] right-[4%] -translate-y-1/2 pointer-events-none z-0"
       />
 

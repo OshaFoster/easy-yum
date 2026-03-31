@@ -22,6 +22,14 @@ export default function RecipeSection({ recipes }) {
 
   const FILTERS = ["All", "GF", "Vegan", "Paleo", "Quick"];
 
+  const SECTION_COLORS = {
+    "simple-plates":    "#b5735a",
+    "sides":            "#5b8a7a",
+    "salads":           "#b8963e",
+    "breakfast-sweets": "#b07a8a",
+    "broths-soups":     "#6b7f8a",
+  };
+
   // Measure nav height and keep updated on resize
   useEffect(() => {
     const update = () => {
@@ -83,7 +91,7 @@ export default function RecipeSection({ recipes }) {
               onClick={() => hasRecipes && scrollToSection(s.id)}
               className="text-xs tracking-widest uppercase transition-opacity duration-150"
               style={{
-                color: isActive ? "var(--accent)" : "var(--ink-muted)",
+                color: isActive ? (SECTION_COLORS[s.id] ?? "var(--accent)") : "var(--ink-muted)",
                 opacity: !hasRecipes ? 0.3 : isActive ? 1 : 0.6,
                 cursor: hasRecipes ? "pointer" : "default",
               }}
@@ -131,7 +139,7 @@ export default function RecipeSection({ recipes }) {
                 ref={(el) => { sectionRefs.current[section.id] = el; }}
                 className="mb-14"
               >
-                <p className="text-xs tracking-widest uppercase mb-5" style={{ color: activeSection === section.id ? "var(--accent)" : "var(--ink-muted)" }}>
+                <p className="text-xs tracking-widest uppercase mb-5" style={{ color: SECTION_COLORS[section.id] ?? "var(--ink-muted)" }}>
                   {section.title}
                 </p>
                 <ul className="flex flex-col">
@@ -142,7 +150,7 @@ export default function RecipeSection({ recipes }) {
                         className="group flex items-baseline gap-4 py-3 border-b"
                         style={{ borderColor: "var(--border)" }}
                       >
-                        <span className="font-display text-3xl shrink-0" style={{ color: "var(--accent)" }}>•</span>
+                        <span className="font-display text-3xl shrink-0" style={{ color: SECTION_COLORS[section.id] ?? "var(--accent)", opacity: 0.6 }}>•</span>
                         <span className="flex-1 min-w-0">
                           <span
                             className="font-display text-3xl block origin-left transition-transform duration-200 group-hover:scale-[1.04]"
