@@ -420,35 +420,35 @@
     "notes": "Leaving a little of the cooking water helps the potatoes mash smoothly.\n\nSuggested topping: a spoonful of yogurt or sour cream."
   },
   {
-    "slug": "instant-pot-beef-bone-broth",
+    "slug": "instant-pot-garlic-herb-beef-bone-broth",
     "section": "broths-soups",
-    "title": "Instant Pot Beef Bone Broth",
-    "description": "A simple, rich beef bone broth made in the Instant Pot. Garlic and herbs add depth, making it perfect for drinking on its own or using as a base for soups.",
+    "title": "Instant Pot Garlic & Herb Beef Bone Broth",
+    "description": "A simple, rich beef bone broth with garlic and herbs. Good for sipping or as a base for soups.",
     "images": {},
     "tags": ["GF", "Paleo"],
     "prepTime": "5 minutes",
-    "cookTime": "3 hours (plus release time)",
+    "cookTime": "3½–4 hours (plus release time)",
     "servings": "About 6–8 cups",
     "ingredients": [
       "1 large beef soup bone (or 2 smaller bones)",
-      "1 whole garlic bulb, or ½ bulb if very fresh",
+      "1 whole garlic bulb, or ½ if very fresh",
       "1 teaspoon sea salt",
       "1 tablespoon vinegar",
       "1 teaspoon dried rosemary",
       "¾ teaspoon dried thyme",
-      "Water (to the Instant Pot fill line)"
+      "Water (just enough to cover the bones by about 1 inch)"
     ],
     "instructions": [
       "Place the beef bone in the Instant Pot.",
-      "Add the garlic bulb, salt, and vinegar.",
-      "Fill the pot with water up to the fill line.",
-      "Seal the lid and cook on High Pressure for 3 hours.",
-      "Allow the pressure to release naturally if possible.",
+      "Add the garlic, salt, and vinegar.",
+      "Add water just to cover the bones by about 1 inch. If you have time, let sit for 10–20 minutes.",
+      "Seal the lid and cook on High Pressure for 3½–4 hours.",
+      "Allow the pressure to release naturally.",
       "Once the lid can be opened, add the rosemary and thyme, crushing them slightly between your fingers as you add them.",
       "Stir, cover loosely, and let the herbs steep for about 20 minutes.",
       "Remove the bone and garlic, then taste and adjust the salt if needed."
     ],
-    "notes": "Vinegar helps draw minerals and flavor from the bone.\n\nCrushing the dried herbs between your fingers helps release their aroma.\n\nThis broth is great for sipping or as a base for soups and beans."
+    "notes": "Use less water for a richer, more concentrated broth, or a bit more if you prefer it lighter for sipping.\n\nAn onion skin (red or yellow) added to the pot deepens the color and adds a subtle richness.\n\nThe broth may gel as it cools, depending on the bones used and the amount of water.\n\nA full head of garlic gives the broth a round, mellow flavor — especially if it's older. If using very fresh garlic, half a small head is plenty."
   },
   {
     "slug": "instant-pot-chicken-bone-broth-ginger",
