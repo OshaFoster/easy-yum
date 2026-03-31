@@ -23,7 +23,7 @@ export default function AboutPage() {
         <Meat36
           width={340}
           height={340}
-          opacity={1}
+          opacity={0.8}
           delay={0.6}
           rotate={10}
           color="#3a8a50"
