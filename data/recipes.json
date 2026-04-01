@@ -959,6 +959,32 @@
     "notes": "Cooking the beans twice (with a rinse in between) can make them easier to digest and gives a cleaner flavor.\n\nKeep the vegetables slightly firm for the best texture.\n\nFinish with lemon or vinegar to brighten the dish."
   },
   {
+    "slug": "arugula-walnut-balsamic-salad",
+    "section": "salads",
+    "title": "Arugula Salad with Walnuts & Balsamic Glaze",
+    "description": "A simple arugula salad with toasted walnuts, olive oil, and balsamic glaze. Light, peppery, and satisfying on its own or with added protein.",
+    "images": {},
+    "tags": ["GF", "Light", "Quick"],
+    "prepTime": "5 minutes",
+    "cookTime": "2–5 minutes",
+    "servings": "1–2",
+    "ingredients": [
+      "2–3 handfuls arugula",
+      "¼ cup toasted walnuts",
+      "1–2 tablespoons olive oil",
+      "1–2 teaspoons balsamic glaze",
+      "Salt, to taste",
+      "Optional: cooked chicken or other protein"
+    ],
+    "instructions": [
+      "Place the arugula in a bowl and drizzle with olive oil.",
+      "Add a pinch of salt and toss gently.",
+      "Top with the toasted walnuts and drizzle with balsamic glaze.",
+      "Add cooked chicken or other protein if you like."
+    ],
+    "notes": "If your walnuts aren't already toasted, warm them in a dry pan for a few minutes until fragrant.\n\nUse a generous amount of olive oil so the greens are well coated.\n\nBest with fresh, mild arugula."
+  },
+  {
     "slug": "lemon-cardamom-tofu-mousse",
     "section": "breakfast-sweets",
     "title": "Lemon Cardamom Tofu Mousse",
