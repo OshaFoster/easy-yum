@@ -66,7 +66,7 @@ export default async function RecipePage({ params }) {
         {/* Back */}
         <Link
           href="/"
-          className="inline-flex items-center gap-2 text-sm tracking-widest uppercase mb-12 transition-opacity duration-150 hover:opacity-50"
+          className="inline-flex items-center gap-2 text-sm tracking-widest uppercase mb-6 md:mb-12 transition-opacity duration-150 hover:opacity-50"
           style={{ color: "var(--ink-muted)" }}
         >
           ← Recipes
