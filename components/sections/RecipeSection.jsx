@@ -148,10 +148,13 @@ export default function RecipeSection({ recipes }) {
                     <li key={recipe.slug}>
                       <Link
                         href={`/recipes/${recipe.slug}`}
-                        className="group flex items-baseline gap-4 py-3 border-b"
+                        className="group flex items-center gap-4 py-3 border-b"
                         style={{ borderColor: "var(--border)" }}
                       >
-                        <span className="font-display text-3xl shrink-0" style={{ color: SECTION_COLORS[section.id] ?? "var(--accent)", opacity: 0.6 }}>•</span>
+                        {recipe.images?.main
+                          ? <img src={recipe.images.main.replace('/900/400', '/72/72')} alt="" className="shrink-0 rounded object-cover" style={{ width: 72, height: 72, opacity: 0.85 }} />
+                          : <span className="font-display text-3xl shrink-0" style={{ color: SECTION_COLORS[section.id] ?? "var(--accent)", opacity: 0.6 }}>•</span>
+                        }
                         <span className="flex-1 min-w-0">
                           <span
                             className="font-display text-3xl block origin-left transition-transform duration-200 group-hover:scale-[1.04]"

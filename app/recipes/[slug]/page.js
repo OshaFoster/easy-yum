@@ -72,6 +72,18 @@ export default async function RecipePage({ params }) {
           ← Recipes
         </Link>
 
+        {/* Hero image */}
+        {recipe.images?.main && (
+          <div className="mb-10 rounded overflow-hidden">
+            <img
+              src={recipe.images.main}
+              alt=""
+              className="w-full object-cover"
+              style={{ height: 320, opacity: 0.9 }}
+            />
+          </div>
+        )}
+
         {/* Title + meta */}
         <div className="mb-10">
           <h1 className="font-display text-5xl md:text-6xl leading-tight mb-4" style={{ color: "var(--ink)" }}>
