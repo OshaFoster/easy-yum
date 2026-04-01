@@ -17,7 +17,7 @@ export default function Header() {
         {pathname === "/about" && (
           <Link
             href="/"
-            className="text-sm tracking-widest uppercase transition-opacity duration-150 hover:opacity-50"
+            className="hidden md:inline text-sm tracking-widest uppercase transition-opacity duration-150 hover:opacity-50"
             style={{ color: "var(--ink-muted)" }}
           >
             ← Recipes

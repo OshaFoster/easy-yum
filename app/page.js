@@ -17,7 +17,7 @@ export default function Home() {
 
       <Header />
 
-      <main className="relative z-10 pb-24 pr-8 md:pr-16 lg:pr-24 pl-[64px] md:pl-[92px] lg:pl-[140px]" style={{ paddingTop: "84px" }}>
+      <main className="relative z-10 pb-24 pr-8 md:pr-16 lg:pr-24 pl-[52px] md:pl-[92px] lg:pl-[140px]" style={{ paddingTop: "84px" }}>
         <RecipeSection recipes={recipes} />
       </main>
     </div>

@@ -1,5 +1,4 @@
 import Header from "@/components/layout/Header";
-import Link from "next/link";
 import { Meat39, Meat36 } from "@/components/ui/FoodWatermarks";
 
 export const metadata = { title: "About — Easy, Yum!" };
@@ -30,8 +29,8 @@ export default function AboutPage() {
           className="fixed bottom-[-20px] right-[-20px] pointer-events-none z-0"
         />
       </div>
-      <main className="relative z-10 pt-30 pb-10 pr-8 md:pr-16 lg:pt-32 xl:pt-40 lg:pb-12 lg:pr-24 pl-[64px] md:pl-[92px] lg:pl-[140px] max-w-2xl lg:w-full xl:w-5/6 lg:max-w-none">
-        <section>
+      <main className="relative z-10 pt-30 pb-10 pr-8 md:pr-16 lg:pt-32 xl:pt-40 lg:pb-12 lg:pr-24 pl-[52px] md:pl-[92px] lg:pl-[140px] max-w-2xl lg:w-full xl:w-5/6 lg:max-w-none">
+<section>
 <div className="flex flex-col gap-5 text-lg leading-relaxed" style={{ color: "var(--ink-muted)" }}>
             <p>
               Simple food, cooked well. These are the recipes I actually make—few ingredients, not much effort, and worth repeating, I think.

@@ -79,7 +79,7 @@ export default function RecipeSection({ recipes }) {
       {/* Full-width fixed section nav */}
       <div
         ref={navRef}
-        className="fixed left-0 right-0 z-20 pr-8 md:pr-16 lg:pr-24 pl-[64px] md:pl-[92px] lg:pl-[140px] py-5 flex items-center flex-wrap gap-x-8 gap-y-2 border-b"
+        className="fixed left-0 right-0 z-20 pr-8 md:pr-16 lg:pr-24 pl-[52px] md:pl-[92px] lg:pl-[140px] py-5 flex items-center flex-wrap gap-x-8 gap-y-2 border-b"
         style={{ top: "83px", backgroundColor: "var(--bg)", borderColor: "var(--border)" }}
       >
         {sectionsData.map((s) => {

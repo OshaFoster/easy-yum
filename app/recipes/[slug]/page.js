@@ -60,7 +60,7 @@ export default async function RecipePage({ params }) {
         />
       </div>
 
-<main className="relative z-10 pt-28 pb-24 pr-8 md:pr-16 lg:pr-24 pl-[64px] md:pl-[92px] lg:pl-[140px] max-w-4xl">
+<main className="relative z-10 pt-28 pb-24 pr-8 md:pr-16 lg:pr-24 pl-[52px] md:pl-[92px] lg:pl-[140px] max-w-4xl">
         <FadeIn>
 
         {/* Back */}
