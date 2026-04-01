@@ -959,6 +959,34 @@
     "notes": "Cooking the beans twice (with a rinse in between) can make them easier to digest and gives a cleaner flavor.\n\nKeep the vegetables slightly firm for the best texture.\n\nFinish with lemon or vinegar to brighten the dish."
   },
   {
+    "slug": "cumin-crusted-cod-with-lime",
+    "section": "simple-plates",
+    "title": "Cumin-Crusted Cod with Lime",
+    "description": "Simple pan-cooked cod with a light cumin crust, finished with lime and warm olive oil from the pan. Bright, savory, and easy to make.",
+    "images": {},
+    "tags": ["GF", "Light", "Quick"],
+    "prepTime": "5 minutes",
+    "cookTime": "8–10 minutes",
+    "servings": "1–2",
+    "ingredients": [
+      "2 cod fillets",
+      "1–2 tablespoons olive oil",
+      "1 teaspoon ground cumin (about ½ teaspoon per fillet)",
+      "Salt, to taste",
+      "1 lime"
+    ],
+    "instructions": [
+      "Pat the cod dry well with paper towels.",
+      "Heat olive oil in a pan over medium-high heat until it shimmers.",
+      "Add the cod and cook undisturbed for about 3–4 minutes.",
+      "Season the top with salt and sprinkle about ½ teaspoon cumin over each fillet.",
+      "Flip carefully and cook another 2–3 minutes, until the fish flakes easily.",
+      "Remove from heat and squeeze lime over the top.",
+      "Spoon the warm olive oil and juices from the pan over the fish before serving."
+    ],
+    "notes": "Don't crowd the pan — leave space between the fillets so they sear instead of steam.\n\nIf the fish sticks when you try to flip it, give it another minute — it will release when ready.\n\nThe amount this serves depends on the size of the fillets. Two small fillets may be enough for one person.\n\nUse enough olive oil to lightly coat the pan — this helps prevent sticking and gives you something to spoon over at the end."
+  },
+  {
     "slug": "arugula-walnut-balsamic-salad",
     "section": "salads",
     "title": "Arugula Salad with Walnuts & Balsamic Glaze",
