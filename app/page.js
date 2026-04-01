@@ -9,10 +9,11 @@ export default function Home() {
   return (
     <div style={{ backgroundColor: "var(--bg)" }}>
       {/* Background watermarks */}
-      {/* Color experiment: Carrot #b5735a, Onion #5b8a7a, Beet tried: #4a6580 (steel blue), #6b6b8a (lavender), #b8963e (gold) */}
+      {/* Color experiment: Carrot #b5735a, Onion #5b8a7a, Beet tried: #4a6580 (steel blue), #6b6b8a (lavender), #b8963e (gold), #a81414 (deep red) */}
+      {/* Recipe detail Asset47 tried: #c09321 (gold). About Meat36 tried: #3a8a50 (bright green) */}
       <div className="hidden md:block"><Carrot width={360} height={360} opacity={0.2} delay={0.2} rotate={-15} className="fixed top-[60px] right-[-60px] pointer-events-none z-0" /></div>
       <Onion  width={340} height={340} opacity={0.2} delay={0.5} className="fixed top-[48%] left-[-50px] pointer-events-none z-0" />
-      <div className="hidden md:block"><Beet   width={340} height={340} opacity={0.8} delay={0.8} rotate={10} color="#a81414" className="fixed bottom-[60px] right-[18%] pointer-events-none z-0" /></div>
+      <div className="hidden md:block"><Beet   width={340} height={340} opacity={0.2} delay={0.8} rotate={10} className="fixed bottom-[60px] right-[18%] pointer-events-none z-0" /></div>
 
       <Header />
 

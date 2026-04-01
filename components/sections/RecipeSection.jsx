@@ -92,7 +92,7 @@ export default function RecipeSection({ recipes }) {
               className="text-xs tracking-widest uppercase transition-opacity duration-150"
               style={{
                 color: isActive ? (SECTION_COLORS[s.id] ?? "var(--accent)") : "var(--ink-muted)",
-                opacity: !hasRecipes ? 0.3 : isActive ? 1 : 0.6,
+                opacity: !hasRecipes ? 0.3 : isActive ? 1 : 0.8,
                 cursor: hasRecipes ? "pointer" : "default",
               }}
             >
@@ -138,6 +138,7 @@ export default function RecipeSection({ recipes }) {
                 key={section.id}
                 ref={(el) => { sectionRefs.current[section.id] = el; }}
                 className="mb-14"
+                style={{ '--section-color': SECTION_COLORS[section.id] ?? "var(--accent)" }}
               >
                 <p className="text-xs tracking-widest uppercase mb-5" style={{ color: SECTION_COLORS[section.id] ?? "var(--ink-muted)" }}>
                   {section.title}

@@ -23,10 +23,10 @@ export default function AboutPage() {
         <Meat36
           width={340}
           height={340}
-          opacity={0.8}
+          opacity={0.4}
           delay={0.6}
           rotate={10}
-          color="#3a8a50"
+          color="#5b8a7a"
           className="fixed bottom-[-20px] right-[-20px] pointer-events-none z-0"
         />
       </div>
