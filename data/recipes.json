@@ -694,9 +694,9 @@
     "notes": "The berries should be just warmed, not fully cooked.\n\nSuggested serving: breakfast or a simple dessert."
   },
   {
-    "slug": "apple-banana-peanut-butter-yogurt-bowl",
+    "slug": "fruit-peanut-butter-yogurt-bowl",
     "section": "breakfast-sweets",
-    "title": "Apple, Banana & Peanut Butter Yogurt Bowl",
+    "title": "Fruit & Peanut Butter Yogurt Bowl",
     "description": "Fresh fruit with yogurt and crunchy peanut butter. A quick, simple bowl that works for breakfast or a light dessert.",
     "images": {},
     "tags": ["GF"],
@@ -734,7 +734,7 @@
     "instructions": [
       "Place the prunes and walnuts in a small bowl."
     ],
-    "notes": "This is less a recipe and more an idea — something sweet with something rich. Other combinations I like are dates with almonds or figs with pumpkin seeds."
+    "notes": "This is less a recipe and more an idea — something sweet with something rich. Other combinations I like are dates with almonds or figs with pumpkin seeds. Mix it up."
   },
   {
     "slug": "simple-greens-avocado-hemp-seeds",
@@ -779,6 +779,7 @@
       "2 cups cabbage, grated",
       "1 small carrot, finely grated",
       "1 tablespoon mayonnaise (such as Vegenaise)",
+      "1 teaspoon honey mustard",
       "Pinch sea salt",
       "Freshly ground black pepper",
       "Optional: thinly sliced red bell pepper",
@@ -788,10 +789,10 @@
       "Grate the cabbage using the larger holes of a box grater.",
       "Grate the carrot using the finer holes.",
       "Place the cabbage and carrot in a bowl.",
-      "Add the mayonnaise, salt, and pepper.",
+      "Add the mayonnaise, honey mustard, salt, and pepper.",
       "Toss until everything is lightly coated."
     ],
-    "notes": "The finely grated vegetables give this slaw a softer texture than traditional coleslaw."
+    "notes": "The finely grated vegetables give this slaw a softer texture than traditional coleslaw.\n\nTaste before serving and adjust — a little more mayo, mustard, salt, or pepper goes a long way."
   },
   {
     "slug": "roasted-delicata-squash",
