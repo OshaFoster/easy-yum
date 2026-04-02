@@ -38,6 +38,28 @@
     ]
   },
   {
+    "slug": "toasted-seeds-and-nuts",
+    "section": "sides",
+    "title": "Toasted Seeds & Nuts",
+    "description": "A simple way to toast seeds and nuts in the oven. I keep a jar in the fridge and add them to salads, soups, or anything that wants a little crunch.",
+    "images": {},
+    "tags": ["Vegan", "GF", "Paleo"],
+    "prepTime": "2 minutes",
+    "cookTime": "10–15 minutes",
+    "servings": "As much as you like",
+    "ingredients": [
+      "Seeds or nuts — pumpkin seeds, sunflower seeds, almonds, walnuts",
+      "Sea salt (optional)"
+    ],
+    "instructions": [
+      "Preheat the oven to 350°F.",
+      "Spread the seeds or nuts in a single layer on a baking sheet.",
+      "Toast until golden and fragrant, about 10–15 minutes. Start checking around 10 minutes.",
+      "Remove from the oven and let cool on the pan."
+    ],
+    "notes": "Store in a jar in the fridge; they keep well for a couple of weeks. I usually only salt the sunflower seeds."
+  },
+  {
     "slug": "oven-sweet-potato-fries",
     "section": "sides",
     "title": "Oven Sweet Potato Fries",
@@ -284,7 +306,6 @@
         "title": "Suggested Side",
         "intro": null,
         "steps": [
-          "A simple green salad balances the richness of the chicken and potatoes.",
           { "text": "Simple Steamed Zucchini.", "slug": "simple-steamed-zucchini" }
         ],
         "outro": null
@@ -420,6 +441,66 @@
     "notes": "Leaving a little of the cooking water helps the potatoes mash smoothly.\n\nSuggested topping: a spoonful of yogurt or sour cream."
   },
   {
+    "slug": "spiced-butternut-coconut-soup",
+    "section": "broths-soups",
+    "title": "Roasted Butternut Squash Soup with Garam Masala",
+    "description": "Roasting the squash, onion, and garlic first gives this soup a deeper, slightly sweet flavor. Finished with coconut milk and garam masala.",
+    "images": {},
+    "tags": ["Vegan", "GF"],
+    "prepTime": "15 minutes",
+    "cookTime": "40–45 minutes",
+    "servings": "3–4",
+    "ingredients": [
+      "1 butternut squash, peeled and chopped",
+      "1 onion, cut into large chunks",
+      "4–5 cloves garlic",
+      "2–3 teaspoons garam masala",
+      "3–4 cups mushroom broth",
+      "1 can coconut milk",
+      "1–2 tablespoons olive oil",
+      "Salt and black pepper",
+      "Pumpkin seeds, for topping (optional)"
+    ],
+    "instructions": [
+      "Preheat the oven to 400°F.",
+      "Place the squash, onion, and garlic on a baking sheet. Drizzle with olive oil and season with garam masala, salt, and pepper. Toss to coat.",
+      "Roast until the squash is tender and the onion is lightly golden, about 25–30 minutes.",
+      "Transfer everything to a pot and add the mushroom broth. Bring to a boil.",
+      "Turn off the heat and let it cool slightly, then add the coconut milk.",
+      "Blend until smooth. Taste and adjust salt as needed."
+    ],
+    "notes": "Nice with toasted pumpkin seeds, a little fresh cilantro, or both."
+  },
+  {
+    "slug": "celery-fennel-cashew-soup",
+    "section": "broths-soups",
+    "title": "Celery, Fennel & Cashew Soup",
+    "description": "A light, blended soup with a soft sweetness from fennel and cashews. Simple, but really satisfying.",
+    "images": {},
+    "tags": ["Vegan", "GF"],
+    "prepTime": "10 minutes",
+    "cookTime": "20 minutes",
+    "servings": "2–3",
+    "notes": "Top with a few fennel fronds if you have them.",
+    "ingredients": [
+      "1 onion",
+      "2 ribs celery",
+      "1 fennel bulb",
+      "1 rounded cup cashews",
+      "3–4 cups vegetable stock",
+      "1–2 tablespoons olive oil",
+      "Salt and black pepper"
+    ],
+    "instructions": [
+      "Roughly chop the onion, celery, and fennel.",
+      "Heat the olive oil in a pot and add the vegetables. Cook over medium-high heat until softened, letting the onion brown slightly at the edges.",
+      "Season with salt and pepper, then add enough stock to just cover the vegetables (about ½ inch above). Bring to a boil.",
+      "Let it simmer for about 10 minutes, until everything is tender.",
+      "Turn off the heat and add the cashews. Let it sit a few minutes to soften and cool slightly.",
+      "Blend until smooth. Taste and adjust salt and pepper as needed."
+    ]
+  },
+  {
     "slug": "instant-pot-garlic-herb-beef-bone-broth",
     "section": "broths-soups",
     "title": "Instant Pot Garlic & Herb Beef Bone Broth",
@@ -478,13 +559,13 @@
       "Open the lid and remove the bones and ginger.",
       "Taste and adjust the salt if needed."
     ],
-    "notes": "Turmeric and ginger give the broth a warm flavor and a golden color.\n\nThis broth is excellent for sipping on its own or using as a base for soups.\n\nFor a lighter, more plentiful broth, fill to the Instant Pot fill line.",
+    "notes": "Turmeric and ginger give the broth a warm flavor and a golden color.\n\nThis broth is excellent for sipping on its own or using as a base for soups.\n\nFor a lighter, more plentiful broth, fill to the Instant Pot fill line.\n\nYou can also add aromatics to the pot — half an onion, a carrot, a stalk of fennel, a small apple, a few cloves of garlic, a rib of celery, or a few sprigs of parsley. Use any or all of them.",
     "optionalSections": [
       {
         "title": "Suggested Serving",
         "intro": null,
         "steps": [
-          "Warm a mug of broth and add a squeeze of lemon and a little extra salt."
+          "Warm a mug of broth with a squeeze of lemon and a pinch of salt."
         ],
         "outro": null
       }
