@@ -38,28 +38,6 @@
     ]
   },
   {
-    "slug": "toasted-seeds-and-nuts",
-    "section": "sides",
-    "title": "Toasted Seeds & Nuts",
-    "description": "A simple way to toast seeds and nuts in the oven. I keep a jar in the fridge and add them to salads, soups, or anything that wants a little crunch.",
-    "images": {},
-    "tags": ["Vegan", "GF", "Paleo"],
-    "prepTime": "2 minutes",
-    "cookTime": "10–15 minutes",
-    "servings": "As much as you like",
-    "ingredients": [
-      "Seeds or nuts — pumpkin seeds, sunflower seeds, almonds, walnuts",
-      "Sea salt (optional)"
-    ],
-    "instructions": [
-      "Preheat the oven to 350°F.",
-      "Spread the seeds or nuts in a single layer on a baking sheet.",
-      "Toast until golden and fragrant, about 10–15 minutes. Start checking around 10 minutes.",
-      "Remove from the oven and let cool on the pan."
-    ],
-    "notes": "Store in a jar in the fridge; they keep well for a couple of weeks. I usually only salt the sunflower seeds."
-  },
-  {
     "slug": "oven-sweet-potato-fries",
     "section": "sides",
     "title": "Oven Sweet Potato Fries",
@@ -972,6 +950,28 @@
       "Stir before serving, then lightly fold in the apricots and pistachios."
     ],
     "notes": "For the best flavor, grind whole cardamom seeds using a mortar and pestle. Ground cardamom also works.\n\nYou can use your preferred sweetener, adjusting the amount to taste.\n\nRipe fruit makes a real difference here. Let apricots soften on the counter until they're sweet and fragrant. The same goes for blackberries — fully ripe ones are noticeably better.\n\nBlackberries with pistachios are another favorite — other fruits and nuts work well too."
+  },
+  {
+    "slug": "toasted-seeds-and-nuts",
+    "section": "sides",
+    "title": "Toasted Seeds & Nuts",
+    "description": "A simple way to toast seeds and nuts in the oven. I keep a jar in the fridge and add them to salads, soups, or anything that wants a little crunch.",
+    "images": {},
+    "tags": ["Vegan", "GF", "Paleo"],
+    "prepTime": "2 minutes",
+    "cookTime": "10–15 minutes",
+    "servings": "As much as you like",
+    "ingredients": [
+      "Seeds or nuts — pumpkin seeds, sunflower seeds, almonds, walnuts",
+      "Sea salt (optional)"
+    ],
+    "instructions": [
+      "Preheat the oven to 350°F.",
+      "Spread the seeds or nuts in a single layer on a baking sheet.",
+      "Toast until golden and fragrant, about 10–15 minutes. Start checking around 10 minutes.",
+      "Remove from the oven and let cool on the pan."
+    ],
+    "notes": "Store in a jar in the fridge; they keep well for a couple of weeks. I usually only salt the sunflower seeds."
   },
   {
     "slug": "simple-steamed-zucchini",
