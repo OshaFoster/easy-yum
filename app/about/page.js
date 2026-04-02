@@ -39,7 +39,7 @@ export default function AboutPage() {
               I&apos;m lucky to live in a rural area where there&apos;s good local meat, dairy, and vegetables. I prefer grass-fed meat and local produce when I can get it—organic after that, and something that looks genuinely alive when I can&apos;t.
             </p>
             <p>
-              Things I keep in mind are nutritional density, the impact on the environment, and the quality of life for the animal. These recipes are also gluten-free, because that&apos;s how I cook, though many would go well with bread. When I use dairy, I tend to choose cultured or higher-quality options when available.
+              Things I keep in mind are nutritional density, the impact on the environment, and the quality of life for the animal. These recipes are also gluten-free, because that&apos;s how I cook, though many would go well with a crusty piece of bread. When I use dairy, I tend to choose cultured or higher-quality options when available.
             </p>
             <p>
               I usually keep a few things in the fridge—roasted nuts or seeds that I toast myself, and something fermented, like pickles, sauerkraut, or kimchi. I&apos;ll add these to meals for a little extra nutrition, crunch, and flavor.
