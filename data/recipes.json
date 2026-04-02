@@ -266,7 +266,8 @@
         "title": "Suggested Side",
         "intro": null,
         "steps": [
-          { "text": "Oven Sweet Potato Fries.", "slug": "oven-sweet-potato-fries" }
+          { "text": "Oven Sweet Potato Fries.", "slug": "oven-sweet-potato-fries" },
+          { "text": "Simple Greens with Avocado & Hemp Seeds.", "slug": "simple-greens-avocado-hemp-seeds" }
         ],
         "outro": null
       }
@@ -1108,7 +1109,7 @@
       "2–3 tablespoons honey or maple syrup",
       "Juice of 1 lemon (about 2–3 tablespoons)",
       "Zest of ½ lemon",
-      "1 rounded teaspoon ground cardamom (or seeds from pods)",
+      "1 rounded teaspoon ground cardamom",
       "1 teaspoon vanilla extract",
       "Optional: pumpkin seeds or sliced almonds",
       "Optional: fresh strawberries, kiwi, or berries"
