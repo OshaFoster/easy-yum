@@ -2,7 +2,7 @@
   {
     "id": "simple-plates",
     "title": "Simple Plates",
-    "description": "Easy, satisfying meals I make again and again—good for breakfast, lunch, or dinner. Most are one-pan dishes built around a protein and a vegetable, simply seasoned to let the flavor of the food come through."
+    "description": "Mostly one-pan meals built around a protein and a vegetable. Simply seasoned to bring out the flavor of the food. I'll eat a version of these for every meal."
   },
   {
     "id": "sides",
@@ -17,11 +17,11 @@
   {
     "id": "breakfast-sweets",
     "title": "Breakfast & Sweets",
-    "description": "I like a little something sweet. Simple, thoughtful combinations that come together easily."
+    "description": "I like a little something sweet. Simple, thoughtful combinations."
   },
   {
     "id": "broths-soups",
     "title": "Broths & Soups",
-    "description": "Simple broths and soups I come back to. Warm, a little interesting, and easy to make."
+    "description": "Broths and soups. Warm, a little interesting, and easy to make."
   }
 ]

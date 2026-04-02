@@ -140,9 +140,14 @@ export default function RecipeSection({ recipes }) {
                 className="mb-14"
                 style={{ '--section-color': SECTION_COLORS[section.id] ?? "var(--accent)" }}
               >
-                <p className="text-xs tracking-widest uppercase mb-5" style={{ color: SECTION_COLORS[section.id] ?? "var(--ink-muted)" }}>
+                <p className="text-xs tracking-widest uppercase mb-3" style={{ color: SECTION_COLORS[section.id] ?? "var(--ink-muted)" }}>
                   {section.title}
                 </p>
+                {section.description && (
+                  <p className="md:hidden text-sm leading-relaxed mb-5" style={{ color: "var(--ink-muted)" }}>
+                    {section.description}
+                  </p>
+                )}
                 <ul className="flex flex-col">
                   {filtered.map((recipe) => (
                     <li key={recipe.slug}>
