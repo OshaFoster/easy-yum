@@ -1241,5 +1241,32 @@
     ],
     "notes": "The vegetables are cooked slowly, first in olive oil until they develop just a hint of color, then gently simmered until soft and tender.",
     "variation": "I like to combine just a few different vegetables, finely chopped and cooked until soft and tender. The idea is to create a soft flavor profile that melts into the rice."
+  },
+  {
+    "slug": "tomato-stewed-peas",
+    "section": "sides",
+    "title": "Tomato-Stewed Peas",
+    "description": "Sweet little peas simmered slowly with tomatoes and garlic until soft and tender. As the liquid cooks away, the tomatoes become rich and sweet, coating the peas with flavor.",
+    "images": {},
+    "tags": ["Vegan", "GF", "One Pan", "Oil-Free"],
+    "prepTime": "5 minutes",
+    "cookTime": "20–25 minutes",
+    "servings": "3–4",
+    "ingredients": [
+      "1 bag (12 oz) frozen petite sweet peas",
+      "1 can (14.5 oz) stewed tomatoes",
+      "2–3 cloves garlic, chopped",
+      "Water, as needed",
+      "¼ teaspoon salt, or to taste"
+    ],
+    "instructions": [
+      "Drain most of the liquid from the stewed tomatoes, reserving it in case you need more. Roughly chop the tomatoes.",
+      "Add the frozen peas, chopped tomatoes, and garlic to a skillet or saucepan.",
+      "Cook uncovered over medium-low heat, stirring occasionally. As the liquid evaporates, add small splashes of water or reserved tomato liquid to keep everything gently simmering.",
+      "Continue cooking for about 20–25 minutes, until the peas are soft and tender and the garlic has mellowed.",
+      "Once the peas are fully cooked, allow the remaining liquid to evaporate until the tomatoes lightly coat the peas.",
+      "Finish with a little salt to taste."
+    ],
+    "notes": "The idea is to cook everything slowly until the peas are soft and sweet and the tomatoes have reduced into a rich, gentle flavor. Add water as needed during cooking, but let most of the liquid evaporate at the end.\n\nNo oil is needed for this recipe."
   }
 ]
