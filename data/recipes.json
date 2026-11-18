@@ -1209,5 +1209,37 @@
       "Finish with a small drizzle of sesame oil and a squeeze of lime."
     ],
     "notes": "Slice everything very thin so it softens quickly.\n\nAdd the miso at the end so it doesn't cook.\n\nKeep the lime subtle — just enough to lift the broth.\n\nThis works with other greens or thinly sliced vegetables, like zucchini, carrots, or sweet potato."
+  },
+  {
+    "slug": "congee-with-vegetables",
+    "section": "broths-soups",
+    "title": "Congee with Vegetables",
+    "description": "A soft, comforting rice porridge topped with gently cooked vegetables. This combination of zucchini, shiitake mushrooms, and sweet peas is especially lovely.",
+    "images": {},
+    "tags": ["Vegan", "GF", "Instant Pot"],
+    "prepTime": "10 minutes",
+    "cookTime": "25 minutes, plus natural pressure release",
+    "servings": "3–4",
+    "ingredients": [
+      "1 cup white rice",
+      "8 cups water",
+      "1½ tablespoons olive oil",
+      "1 large zucchini",
+      "1 handful shiitake mushrooms",
+      "¾–1 cup frozen sweet peas",
+      "About 1 cup water, for the vegetables",
+      "½ teaspoon salt, or to taste"
+    ],
+    "instructions": [
+      "Add the rice and 8 cups of water to the Instant Pot. Cook on high pressure for 25 minutes, then allow the pressure to release naturally.",
+      "While the rice cooks, slice the zucchini into thin strips, then cut into small squares. Finely chop the shiitake mushrooms.",
+      "Heat the olive oil in a skillet over medium-low heat. Add the zucchini and mushrooms, spreading them evenly across the pan.",
+      "Let the vegetables cook undisturbed for about 5 minutes, until they just begin to turn golden in spots. Stir gently, then let them cook for another 5 minutes. You're looking for a little color, not deep browning.",
+      "Add the frozen peas and cook for another couple of minutes, stirring occasionally.",
+      "Add about 1 cup of water and reduce the heat to low. Continue cooking gently, stirring occasionally, until the vegetables are soft and tender, about 20–25 minutes total cooking time, including the initial sauté. A little olive oil and vegetable cooking liquid should remain in the pan.",
+      "Spoon the congee into bowls and top with the vegetables and some of their cooking liquid. Finish with a little salt to taste."
+    ],
+    "notes": "The vegetables are cooked slowly, first in olive oil until they develop just a hint of color, then gently simmered until soft and tender.",
+    "variation": "I like to combine just a few different vegetables, finely chopped and cooked until soft and tender. The idea is to create a soft flavor profile that melts into the rice."
   }
 ]
